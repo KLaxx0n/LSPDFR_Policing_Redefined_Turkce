@@ -1,0 +1,113 @@
+﻿<PolicingRedefined xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalPatrol>
+    <CustomRegion name="Los Santos Airport">
+      <Zones>
+        <Zone>AIRP</Zone>
+      </Zones>
+      <VehicleDivisions>
+        <VehicleDivision spawn_distance="250" chance="40">
+          <Peds>
+            <Ped chance="100">S_M_M_CIASEC_01</Ped>
+          </Peds>
+          <Vehicles>
+            <Vehicle color="White" pax="1" pax_chance="25" chance="70">POLICE4</Vehicle>
+            <Vehicle color="White" pax="1" pax_chance="25" chance="30">FBI2</Vehicle>
+          </Vehicles>
+          <LongGuns />
+          <HandGuns />
+          <NonLethals />
+        </VehicleDivision>
+        <VehicleDivision spawn_distance="250" chance="60">
+          <Peds>
+            <Ped comp_shirt="2" comp_accessories="2" prop_glasses="4" prop_hats="1" chance="90">S_M_Y_COP_01</Ped>
+            <Ped comp_shirt="2" comp_accessories="2" prop_hats="1" chance="10">S_F_Y_COP_01</Ped>
+          </Peds>
+          <Vehicles>
+            <Vehicle pax="1" pax_chance="40" chance="33">POLICE</Vehicle>
+            <Vehicle pax="1" pax_chance="25" chance="33">POLICE2</Vehicle>
+            <Vehicle pax="1" pax_chance="25" chance="34">POLICE3</Vehicle>
+          </Vehicles>
+          <LongGuns />
+          <HandGuns />
+          <NonLethals />
+        </VehicleDivision>
+      </VehicleDivisions>
+    </CustomRegion>
+    <CustomRegion name="San Andreas Parks">
+      <Zones>
+        <Zone>CANNY</Zone>
+        <Zone>MTCHIL</Zone>
+        <Zone>CMSW</Zone>
+        <Zone>SANCHIA</Zone>
+        <Zone>LACT</Zone>
+        <Zone>TATAMO</Zone>
+        <Zone>CCREAK</Zone>
+        <Zone>MTGORDO</Zone>
+        <Zone>MTJOSE</Zone>
+        <Zone>PALFOR</Zone>
+        <Zone>NCHU</Zone>
+      </Zones>
+      <VehicleDivisions>
+        <VehicleDivision spawn_distance="250" chance="100">
+          <Peds>
+            <Ped chance="90">S_M_Y_RANGER_01</Ped>
+            <Ped chance="10">S_F_Y_RANGER_01</Ped>
+          </Peds>
+          <Vehicles>
+            <Vehicle pax="1" pax_chance="25" chance="80">PRANGER</Vehicle>
+            <Vehicle color="-16772601" chance="20">FBI2</Vehicle>
+          </Vehicles>
+          <LongGuns />
+          <HandGuns />
+          <NonLethals />
+        </VehicleDivision>
+      </VehicleDivisions>
+    </CustomRegion>
+    <CustomRegion name="High Crime Areas">
+      <Zones>
+        <Zone>DAVIS</Zone>
+        <Zone>STRAW</Zone>
+      </Zones>
+      <VehicleDivisions>
+        <VehicleDivision spawn_distance="250" chance="100">
+          <Peds>
+            <Ped comp_shirt="2" comp_accessories="2" comp_tasks="3" prop_glasses="4" prop_hats="1" chance="10">S_M_Y_COP_01</Ped>
+            <Ped comp_shirt="2" comp_tasks="3" prop_glasses="1" chance="30">S_M_Y_COP_01</Ped>
+            <Ped comp_tasks="3" prop_glasses="2" chance="30">S_M_Y_COP_01</Ped>
+            <Ped comp_tasks="3" prop_glasses="3" chance="30">S_M_Y_COP_01</Ped>
+          </Peds>
+          <Vehicles>
+            <Vehicle pax="1" pax_chance="90" chance="33">POLICE</Vehicle>
+            <Vehicle pax="1" pax_chance="90" chance="33">POLICE2</Vehicle>
+            <Vehicle pax="1" pax_chance="90" chance="34">POLICE3</Vehicle>
+          </Vehicles>
+          <LongGuns>
+            <LongGun chance="25">WEAPON_CARBINERIFLE</LongGun>
+            <LongGun chance="50">WEAPON_ADVANCEDRIFLE</LongGun>
+            <LongGun chance="25">WEAPON_PUMPSHOTGUN</LongGun>
+          </LongGuns>
+          <HandGuns>
+            <HandGun chance="50">WEAPON_PISTOL</HandGun>
+            <HandGun chance="50">WEAPON_COMBATPISTOL</HandGun>
+          </HandGuns>
+          <NonLethals>
+            <NonLethal>WEAPON_STUNGUN</NonLethal>
+          </NonLethals>
+        </VehicleDivision>
+      </VehicleDivisions>
+    </CustomRegion>
+  </LocalPatrol>
+  <LocalFemalePatrol />
+  <StatePatrol />
+  <StateFemalePatrol />
+  <LocalSWAT />
+  <NooseSWAT />
+  <LocalK9Patrol />
+  <StateK9Patrol />
+  <LocalAir />
+  <NooseAir />
+  <PoliceTransport />
+  <Ambulance />
+  <FireDepartment />
+  <Coroner />
+</PolicingRedefined>

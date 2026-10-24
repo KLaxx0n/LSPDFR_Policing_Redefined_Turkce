@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VehicleSearchItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <RedItems>
+      <Item xsi:type="Firearm" Chance="Normal" FirearmState="Normal">bir tabanca</Item>
+      <Item xsi:type="Firearm" Chance="Rare" FirearmState="ScratchedSN">seri numarası tahrif edilmiş bir tabanca</Item>
+      <Item xsi:type="Firearm" Chance="Rare" FirearmState="Normal">uzun namlulu bir tüfek</Item>
+      <Item xsi:type="Firearm" Chance="VeryRare" FirearmState="ScratchedSN">seri numarası kazınmış kompakt ateşli silah</Item>
+
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Cocaine">satış için paketlenmiş çok sayıda küçük kokain poşeti</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Heroin">bağlanmış eroin paketi</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Fentanyl">fentanil kalıntısı içeren katlanmış folyo</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="PCP">küçük bir şişe PCP çözeltisi</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Cannabis">vakumlanmış esrar paketi</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Oxycodone">başka birinin adına düzenlenmiş oksikodon dolu ilaç şişesi</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Hydrocodone">hidrokodon tabletleriyle dolu ilaç kutusu</Item>
+
+      <Item Chance="Rare">çalıntı kredi kartlarıyla dolu bir kutu</Item>
+      <Item Chance="Rare">taşınabilir kredi kartı kopyalama cihazı (skimmer)</Item>
+      <Item Chance="Rare">başka bir araç sahibine ait mülkiyet belgeleri</Item>
+      <Item Chance="Rare">sahte resmi kimlik kartı</Item>
+      <Item Chance="VeryRare">el yapımı patlayıcı (EYP) bileşeni</Item>
+
+      <Item Chance="Rare">lastik bantlarla sarılmış mühürlü nakit para balyası</Item>
+   </RedItems>
+
+   <YellowItems>
+      <Item xsi:type="Weapon" Chance="Often">katlanır cep çakısı</Item>
+      <Item xsi:type="Weapon" Chance="Normal">sabit bıçaklı bıçak</Item>
+      <Item xsi:type="Weapon" Chance="Rare">açılır kapanır teleskopik cop</Item>
+      <Item xsi:type="Weapon" Chance="Rare">muşta</Item>
+
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Methamphetamine">yanık izleri olan cam metamfetamin piposu</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Heroin">yanmış metal kaşık ve pamuk</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Morphine">bardaklıkta kapaklı bir şırınga</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="LSD">bir şerit LSD kurutma kağıdı</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Adderall">etiketsiz uyarıcı haplar</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Ritalin">streç filme sarılı işaretsiz tabletler</Item>
+
+      <Item Chance="Normal">fermuarlı çantada maymuncuk seti</Item>
+      <Item Chance="Normal">araç kapısı açma demiri (slim jim)</Item>
+      <Item Chance="Normal">bagajda demir kesme makası</Item>
+      <Item Chance="Rare">üzerinde taze boya izi olan levye</Item>
+      <Item Chance="Rare">çeşitli uçları olan şarjlı matkap</Item>
+      <Item Chance="Rare">cam kırma aparatı</Item>
+      <Item Chance="Rare">kablolarıyla birlikte el tipi OBD araç beyin cihazı</Item>
+
+      <Item Chance="Normal">araca ait olmayan ikinci bir plaka</Item>
+      <Item Chance="Rare">şasi perçinleri ve kısmen kazınmış şasi (VIN) etiketi</Item>
+      <Item Chance="Normal">koli bandı ve siyah izole bant rulosu</Item>
+      <Item Chance="Normal">torpido gözüne sıkıştırılmış kar maskesi</Item>
+
+      <Item Chance="Normal">iki adet kullan-at cep telefonu</Item>
+      <Item Chance="Normal">el telsizi seti</Item>
+      <Item Chance="Normal">küçük banknotlardan oluşan kalın para tomarı</Item>
+
+      <Item Chance="Normal">arka paspasın üzerinde açık bira kutusu</Item>
+      <Item Chance="Normal">koltuğun altında yarısı dolu içki şişesi</Item>
+   </YellowItems>
+
+   <GreenItems>
+      <Item Chance="VeryOften">torpido gözünde araç ruhsatı ve sigorta poliçesi</Item>
+      <Item Chance="Often">içinde ehliyet bulunan cüzdan</Item>
+      <Item Chance="Often">telefon şarj kablosu</Item>
+      <Item Chance="Often">bir paket sigara</Item>
+      <Item Chance="Often">sert kılıfında güneş gözlüğü</Item>
+      <Item Chance="Often">orta konsolda bozuk paralar</Item>
+      <Item Chance="Normal">boyun askılı iş yeri kimlik kartı</Item>
+      <Item Chance="Normal">ikiye katlanmış maaş bordrosu</Item>
+
+      <Item Chance="Often">temel alet çantası</Item>
+      <Item Chance="Often">akü takviye kablosu</Item>
+      <Item Chance="Normal">lastik şişirme pompası</Item>
+      <Item Chance="Normal">üçgen trafik reflektörü</Item>
+      <Item Chance="Normal">ilk yardım çantası</Item>
+      <Item Chance="Normal">çekme halatı</Item>
+      <Item Chance="Normal">bir şişe motor yağı</Item>
+      <Item Chance="Normal">kağıt havlu rulosu</Item>
+
+      <Item Chance="VeryOften">matara / su şişesi</Item>
+      <Item Chance="Often">içinde okul eşyaları olan sırt çantası</Item>
+      <Item Chance="Often">kapüşonlu sweatshirt</Item>
+      <Item Chance="Normal">içinde fişler olan fast-food poşeti</Item>
+      <Item Chance="Normal">şemsiye</Item>
+      <Item Chance="Normal">ön cama takılı telefon tutucu</Item>
+      <Item Chance="Normal">taşınabilir şarj cihazı (powerbank)</Item>
+      <Item Chance="Normal">küçük el feneri</Item>
+      <Item Chance="Normal">bir çift iş eldiveni</Item>
+      <Item Chance="Normal">bagajda bir battaniye</Item>
+      <Item Chance="Normal">cep not defteri ve kalem</Item>
+
+      <Item Chance="Normal">çocuk oto koltuğu</Item>
+      <Item Chance="Normal">içinde kıyafetler olan spor çantası</Item>
+      <Item Chance="Normal">içinde atıştırmalıklar olan market poşeti</Item>
+      <Item Chance="Normal">toplu taşıma pasosu</Item>
+   </GreenItems>
+
+</VehicleSearchItems>

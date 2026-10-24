@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomQuestions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestionGroups>
+    <QuestionGroup Name="Street - Basics">
+      <Questions>
+        <Question Question="Hey, what is going on today">
+          <Answers>
+            <Answer PedMood="Sad">Just trying to get by.</Answer>
+            <Answer PedMood="Sad">Long day. Keeping quiet.</Answer>
+            <Answer PedMood="Sad">Out clearing my head.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Just keeping it together.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Taking it slow. Day feels heavy.</Answer>
+            <Answer PedMood="Nervous">Nothing. Just getting some air.</Answer>
+            <Answer PedMood="Nervous">I am good, I promise.</Answer>
+            <Answer PedMood="Nervous">Just walking around.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I am fine. A little wobbly, okay.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Everything is chill. Super chill.</Answer>
+            <Answer PedMood="Mad">Why are you pressing me.</Answer>
+            <Answer PedMood="Mad">I am minding my business.</Answer>
+            <Answer PedMood="Mad">What does it look like.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I said I am good. Back off.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Your energy is way too loud right now.</Answer>
+            <Answer PedMood="Neutral">Just hanging on the block.</Answer>
+            <Answer PedMood="Neutral">Heading to the store.</Answer>
+            <Answer PedMood="Neutral">Waiting on a friend.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Caught a buzz. Staying put.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Just enjoying the walk.</Answer>
+            <Answer PedMood="Sovereign">Traveling freely. Any lawful reason for the stop.</Answer>
+            <Answer PedMood="Sovereign">Not answering questions. Am I detained.</Answer>
+            <Answer PedMood="Sovereign">I choose to remain silent.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements, even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I do not consent to this line of questioning.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you have any identification on you">
+          <Answers>
+            <Answer PedMood="Sad">Yeah, here you go.</Answer>
+            <Answer PedMood="Sad">One second. Found it.</Answer>
+            <Answer PedMood="Sad">I will hand it over.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Hold up. My pockets will not sit still.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">It is here somewhere. Give me a moment.</Answer>
+            <Answer PedMood="Nervous">Yeah, do not freak if it is expired.</Answer>
+            <Answer PedMood="Nervous">It is in here. Hang on.</Answer>
+            <Answer PedMood="Nervous">Yes sir. Here.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Yeah. Just do not reach in, okay.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Got it. So many pockets.</Answer>
+            <Answer PedMood="Mad">For what. Fine.</Answer>
+            <Answer PedMood="Mad">Take it. Do not lose it.</Answer>
+            <Answer PedMood="Mad">Obviously I carry identification.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I got it. Give me space.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Chill. I am cooperating.</Answer>
+            <Answer PedMood="Neutral">Yep, here you go.</Answer>
+            <Answer PedMood="Neutral">Front pocket. One sec.</Answer>
+            <Answer PedMood="Neutral">Sure. Grabbing it now.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Here. Sorry if I am slow.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Passing it over.</Answer>
+            <Answer PedMood="Sovereign">If the law requires it, I will comply.</Answer>
+            <Answer PedMood="Sovereign">State the statute and I will provide identification.</Answer>
+            <Answer PedMood="Sovereign">Is this a lawful order.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Same rule. State the requirement.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Not waiving any rights.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Any reason you are out here so late">
+          <Answers>
+            <Answer PedMood="Sad">Just trying to get by.</Answer>
+            <Answer PedMood="Sad">Long day. Keeping quiet.</Answer>
+            <Answer PedMood="Sad">Out clearing my head.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Just keeping it together.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Taking it slow. Day feels heavy.</Answer>
+            <Answer PedMood="Nervous">Nothing. Just getting some air.</Answer>
+            <Answer PedMood="Nervous">I am good, I promise.</Answer>
+            <Answer PedMood="Nervous">Just walking around.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I am fine. A little wobbly, okay.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Everything is chill. Super chill.</Answer>
+            <Answer PedMood="Mad">Why are you pressing me.</Answer>
+            <Answer PedMood="Mad">I am minding my business.</Answer>
+            <Answer PedMood="Mad">What does it look like.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I said I am good. Back off.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Your energy is way too loud right now.</Answer>
+            <Answer PedMood="Neutral">Just hanging on the block.</Answer>
+            <Answer PedMood="Neutral">Heading to the store.</Answer>
+            <Answer PedMood="Neutral">Waiting on a friend.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Caught a buzz. Staying put.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Just enjoying the walk.</Answer>
+            <Answer PedMood="Sovereign">Traveling freely. Any lawful reason for the stop.</Answer>
+            <Answer PedMood="Sovereign">Not answering questions. Am I detained.</Answer>
+            <Answer PedMood="Sovereign">I choose to remain silent.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements, even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I do not consent to this line of questioning.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Movement">
+      <Questions>
+        <Question Question="Where are you headed">
+          <Answers>
+            <Answer PedMood="Sad">Home. I need some quiet.</Answer>
+            <Answer PedMood="Sad">Nowhere special.</Answer>
+            <Answer PedMood="Sad">Just clearing my head.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Back to the couch before I tip over.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Where the breeze takes me.</Answer>
+            <Answer PedMood="Nervous">To the store. Real quick.</Answer>
+            <Answer PedMood="Nervous">A friend lives nearby.</Answer>
+            <Answer PedMood="Nervous">Home before it gets dark.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Home. For real this time.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Uh, that way. Pretty sure.</Answer>
+            <Answer PedMood="Mad">Away from this.</Answer>
+            <Answer PedMood="Mad">Somewhere you are not.</Answer>
+            <Answer PedMood="Mad">Where I want.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">To a seat before I snap.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Anywhere but here.</Answer>
+            <Answer PedMood="Neutral">Downtown.</Answer>
+            <Answer PedMood="Neutral">Shortcut to the bus stop.</Answer>
+            <Answer PedMood="Neutral">Grabbing some food.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Home. Slowly.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Headed to the park to chill.</Answer>
+            <Answer PedMood="Sovereign">Traveling. No duty to disclose.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">Is that an order.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Rights still apply, even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Respectfully, no answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Where are you coming from">
+          <Answers>
+            <Answer PedMood="Sad">Rough shift.</Answer>
+            <Answer PedMood="Sad">A friends place.</Answer>
+            <Answer PedMood="Sad">Trying to cool off.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">From the bar. Yeah.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">From a chill spot.</Answer>
+            <Answer PedMood="Nervous">The store. That is it.</Answer>
+            <Answer PedMood="Nervous">A buddy's place.</Answer>
+            <Answer PedMood="Nervous">Home. Needed air.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">A party. I cut myself off.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">The park. I think.</Answer>
+            <Answer PedMood="Mad">Behind me, obviously.</Answer>
+            <Answer PedMood="Mad">Why are you tracking me.</Answer>
+            <Answer PedMood="Mad">My business. Drop it.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">A place with better music.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">From a vibe you do not get.</Answer>
+            <Answer PedMood="Neutral">Work.</Answer>
+            <Answer PedMood="Neutral">Gym.</Answer>
+            <Answer PedMood="Neutral">Grabbed some food.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">A bar. Calling it a night.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">A friends place. Kept it mellow.</Answer>
+            <Answer PedMood="Sovereign">Not required to disclose.</Answer>
+            <Answer PedMood="Sovereign">No statements.</Answer>
+            <Answer PedMood="Sovereign">If ordered, say so.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements, even now.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Declining to answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Why are you walking in the road">
+          <Answers>
+            <Answer PedMood="Sad">Sidewalk was crowded.</Answer>
+            <Answer PedMood="Sad">Needed space.</Answer>
+            <Answer PedMood="Sad">I was not thinking.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">I drifted after a few.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I am moving slow. My bad.</Answer>
+            <Answer PedMood="Nervous">Sidewalk ended.</Answer>
+            <Answer PedMood="Nervous">Trying to get around people.</Answer>
+            <Answer PedMood="Nervous">Was not paying attention.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Had a drink. Misjudged it.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I zoned out a bit.</Answer>
+            <Answer PedMood="Mad">Cars can go around.</Answer>
+            <Answer PedMood="Mad">Road was open.</Answer>
+            <Answer PedMood="Mad">I will walk where I want.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I am fine. Stop nitpicking.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I am fine. Back off.</Answer>
+            <Answer PedMood="Neutral">Sidewalk was blocked.</Answer>
+            <Answer PedMood="Neutral">Cut through to cross faster.</Answer>
+            <Answer PedMood="Neutral">Won't happen again.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Heading home, taking it slow.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I will stick to the sidewalk.</Answer>
+            <Answer PedMood="Sovereign">I was traveling. Is this a lawful stop.</Answer>
+            <Answer PedMood="Sovereign">I prefer not to answer.</Answer>
+            <Answer PedMood="Sovereign">Am I receiving a citation.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Declining to answer further.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Why did you cross against the signal">
+          <Answers>
+            <Answer PedMood="Sad">I was tired of waiting.</Answer>
+            <Answer PedMood="Sad">Did not see the signal.</Answer>
+            <Answer PedMood="Sad">Bad day. I rushed it.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Had a couple and misread it.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I was distracted.</Answer>
+            <Answer PedMood="Nervous">I thought it was safe.</Answer>
+            <Answer PedMood="Nervous">People started crossing and I followed.</Answer>
+            <Answer PedMood="Nervous">Light changed fast.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I did not judge it right after a drink.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I got spaced. My mistake.</Answer>
+            <Answer PedMood="Mad">I crossed. Big deal.</Answer>
+            <Answer PedMood="Mad">Road was empty.</Answer>
+            <Answer PedMood="Mad">I am not a hazard.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I am fine. Let it go.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">It was clear enough.</Answer>
+            <Answer PedMood="Neutral">I will wait next time.</Answer>
+            <Answer PedMood="Neutral">I misread the sign.</Answer>
+            <Answer PedMood="Neutral">I will be more careful.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">I will slow it down.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I will stick to the signal.</Answer>
+            <Answer PedMood="Sovereign">I am not making statements.</Answer>
+            <Answer PedMood="Sovereign">Is this a warning or a citation.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements at this time.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Behavior">
+      <Questions>
+        <Question Question="Why are you acting nervous">
+          <Answers>
+            <Answer PedMood="Sad">Just having a rough day.</Answer>
+            <Answer PedMood="Sad">I am stressed.</Answer>
+            <Answer PedMood="Sad">Trying to breathe.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Had a few earlier. I regret it.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I am just trying to calm down.</Answer>
+            <Answer PedMood="Nervous">I get jumpy around police.</Answer>
+            <Answer PedMood="Nervous">Crowds make me anxious.</Answer>
+            <Answer PedMood="Nervous">I have been on edge lately.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I had a drink. Felt worse.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I took a small hit earlier.</Answer>
+            <Answer PedMood="Mad">Because you stopped me.</Answer>
+            <Answer PedMood="Mad">This situation is not chill.</Answer>
+            <Answer PedMood="Mad">I do not like being cornered.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I am not drunk enough to deal with this.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I am not high. I am annoyed.</Answer>
+            <Answer PedMood="Neutral">Long week. That is all.</Answer>
+            <Answer PedMood="Neutral">Just a bit tense.</Answer>
+            <Answer PedMood="Neutral">I will relax.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Had a couple. I will slow down.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Smoked earlier. I am fine.</Answer>
+            <Answer PedMood="Sovereign">I do not answer that.</Answer>
+            <Answer PedMood="Sovereign">No statements.</Answer>
+            <Answer PedMood="Sovereign">Is this relevant to a crime.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Same answer. No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I decline to answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Can you keep your hands where I can see them">
+          <Answers>
+            <Answer PedMood="Sad">Okay. Hands are up.</Answer>
+            <Answer PedMood="Sad">Sure. I will keep them visible.</Answer>
+            <Answer PedMood="Sad">No problem.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yeah. Just keep me steady.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Alright. Moving slow.</Answer>
+            <Answer PedMood="Nervous">Yes. Keeping them where you can see.</Answer>
+            <Answer PedMood="Nervous">Okay. Not moving.</Answer>
+            <Answer PedMood="Nervous">Got it. Hands here.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Okay. Just talk me through it.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I can do that. Please go easy.</Answer>
+            <Answer PedMood="Mad">Fine. Calm down.</Answer>
+            <Answer PedMood="Mad">There. Happy.</Answer>
+            <Answer PedMood="Mad">Hands are right here.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I got hands. Not a problem.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Relax. I am not reaching.</Answer>
+            <Answer PedMood="Neutral">Sure. No problem.</Answer>
+            <Answer PedMood="Neutral">Hands visible.</Answer>
+            <Answer PedMood="Neutral">I will stay still.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Alright. I am steady.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Ok. Slow and easy.</Answer>
+            <Answer PedMood="Sovereign">I will comply with a lawful order.</Answer>
+            <Answer PedMood="Sovereign">Say what you need and I will follow.</Answer>
+            <Answer PedMood="Sovereign">I am cooperating.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Even if I had a drink, I will comply.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I will comply without waiving rights.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Any reason you tried to walk away">
+          <Answers>
+            <Answer PedMood="Sad">I needed space.</Answer>
+            <Answer PedMood="Sad">Just wanted to leave.</Answer>
+            <Answer PedMood="Sad">I was overwhelmed.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">I was looking for a seat.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I drifted. My bad.</Answer>
+            <Answer PedMood="Nervous">I got scared.</Answer>
+            <Answer PedMood="Nervous">I thought I was free to go.</Answer>
+            <Answer PedMood="Nervous">I did not want trouble.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I panicked after a drink.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I got spaced out.</Answer>
+            <Answer PedMood="Mad">You kept grilling me.</Answer>
+            <Answer PedMood="Mad">I do not have to stand still.</Answer>
+            <Answer PedMood="Mad">I wanted distance.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I was done with this talk.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I needed a different vibe.</Answer>
+            <Answer PedMood="Neutral">I thought we were finished.</Answer>
+            <Answer PedMood="Neutral">I did not hear you say stop.</Answer>
+            <Answer PedMood="Neutral">I will stay here now.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">I will stay put. No more moving.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I will keep it steady.</Answer>
+            <Answer PedMood="Sovereign">I believed I was free to leave.</Answer>
+            <Answer PedMood="Sovereign">I was exercising my right to travel.</Answer>
+            <Answer PedMood="Sovereign">I did not receive a lawful order to stay.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Even then, I believed I was free to go.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I decline to answer further.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you understand my instructions">
+          <Answers>
+            <Answer PedMood="Sad">Yes. I understand.</Answer>
+            <Answer PedMood="Sad">I got it.</Answer>
+            <Answer PedMood="Sad">I will follow your instructions.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yes. Sorry if I am slow.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I understand. I am calm.</Answer>
+            <Answer PedMood="Nervous">Yes. I understand.</Answer>
+            <Answer PedMood="Nervous">I think so.</Answer>
+            <Answer PedMood="Nervous">Please repeat the last part.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I understand. Just speak steady.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I understand. I am focused.</Answer>
+            <Answer PedMood="Mad">Yeah, I heard you.</Answer>
+            <Answer PedMood="Mad">I get it.</Answer>
+            <Answer PedMood="Mad">I will follow them.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I get it even if I had a drink.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I get it. Stop repeating yourself.</Answer>
+            <Answer PedMood="Neutral">Yes. Understood.</Answer>
+            <Answer PedMood="Neutral">I will comply.</Answer>
+            <Answer PedMood="Neutral">Clear instructions.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Understood. I will move slow.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Understood. I am steady.</Answer>
+            <Answer PedMood="Sovereign">I will comply with lawful orders.</Answer>
+            <Answer PedMood="Sovereign">If this is lawful, I understand.</Answer>
+            <Answer PedMood="Sovereign">I understand under protest.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">I will comply even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I understand without waiving rights.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Substances">
+      <Questions>
+        <Question Question="Have you had anything to drink today">
+          <Answers>
+            <Answer PedMood="Sad">No. Just tired.</Answer>
+            <Answer PedMood="Sad">Not today.</Answer>
+            <Answer PedMood="Sad">I am sober.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yeah. A couple.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">No booze. Trying to stay calm.</Answer>
+            <Answer PedMood="Nervous">One earlier.</Answer>
+            <Answer PedMood="Nervous">A drink with dinner.</Answer>
+            <Answer PedMood="Nervous">Nothing recent.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I should not have tried to walk. My mistake.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">No alcohol.</Answer>
+            <Answer PedMood="Mad">I am fine.</Answer>
+            <Answer PedMood="Mad">No.</Answer>
+            <Answer PedMood="Mad">Why ask again.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Maybe a little. So what.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">No alcohol.</Answer>
+            <Answer PedMood="Neutral">No drinks.</Answer>
+            <Answer PedMood="Neutral">None today.</Answer>
+            <Answer PedMood="Neutral">Sober.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yeah. I had some.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">No alcohol. Keeping it clean.</Answer>
+            <Answer PedMood="Sovereign">I do not answer that.</Answer>
+            <Answer PedMood="Sovereign">No statements.</Answer>
+            <Answer PedMood="Sovereign">Am I required to answer.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Declining to answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Have you used any drugs or medication recently">
+          <Answers>
+            <Answer PedMood="Sad">Just prescriptions.</Answer>
+            <Answer PedMood="Sad">Nothing illegal.</Answer>
+            <Answer PedMood="Sad">No recreational stuff.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">No. Just drinks earlier.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yeah. Smoked a little.</Answer>
+            <Answer PedMood="Nervous">Over the counter earlier.</Answer>
+            <Answer PedMood="Nervous">Took my meds.</Answer>
+            <Answer PedMood="Nervous">Nothing else.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">No drugs. Just a buzz.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yeah. A little weed.</Answer>
+            <Answer PedMood="Mad">That is not your concern.</Answer>
+            <Answer PedMood="Mad">No.</Answer>
+            <Answer PedMood="Mad">Stop fishing.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Only alcohol.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yeah. So what.</Answer>
+            <Answer PedMood="Neutral">No drugs. Prescriptions only.</Answer>
+            <Answer PedMood="Neutral">Nothing beyond meds.</Answer>
+            <Answer PedMood="Neutral">All legal.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">No drugs. I had drinks.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Smoked earlier. I am calm now.</Answer>
+            <Answer PedMood="Sovereign">No statements about substances.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">Is that a lawful question.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Not answering that.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you have anything illegal on you">
+          <Answers>
+            <Answer PedMood="Sad">No. I am clean.</Answer>
+            <Answer PedMood="Sad">Nothing illegal.</Answer>
+            <Answer PedMood="Sad">You can check.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Nope. Just me.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">No. Only snacks.</Answer>
+            <Answer PedMood="Nervous">No weapons.</Answer>
+            <Answer PedMood="Nervous">Nothing illegal.</Answer>
+            <Answer PedMood="Nervous">Just normal stuff.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Nope. Nothing sharp.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">No illegal items.</Answer>
+            <Answer PedMood="Mad">No. Quit fishing.</Answer>
+            <Answer PedMood="Mad">Clean. End of story.</Answer>
+            <Answer PedMood="Mad">Nothing that concerns you.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Only thing loaded is me. Kidding.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Nope. Chill.</Answer>
+            <Answer PedMood="Neutral">No illegal items.</Answer>
+            <Answer PedMood="Neutral">No weapons.</Answer>
+            <Answer PedMood="Neutral">Just personal stuff.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Negative. You are safe.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">No. Carrying nothing illegal.</Answer>
+            <Answer PedMood="Sovereign">I do not consent to questioning.</Answer>
+            <Answer PedMood="Sovereign">No statements without cause.</Answer>
+            <Answer PedMood="Sovereign">Do you have probable cause.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still not consenting.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No consent given.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you mind if I check your pockets">
+          <Answers>
+            <Answer PedMood="Sad">If you have to.</Answer>
+            <Answer PedMood="Sad">Okay. Be gentle.</Answer>
+            <Answer PedMood="Sad">Alright. Do not make a scene.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yeah. Just do not drop anything.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Okay. Move slow please.</Answer>
+            <Answer PedMood="Nervous">If required, sure.</Answer>
+            <Answer PedMood="Nervous">Okay, but I am jumpy.</Answer>
+            <Answer PedMood="Nervous">Fine. Make it quick.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Alright. Talk me through it.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Okay. This is stressing me out.</Answer>
+            <Answer PedMood="Mad">No. I do not consent.</Answer>
+            <Answer PedMood="Mad">Not without a reason.</Answer>
+            <Answer PedMood="Mad">Hard pass.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Back up with that.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Nope. Do not touch me.</Answer>
+            <Answer PedMood="Neutral">If it helps safety.</Answer>
+            <Answer PedMood="Neutral">Okay. Quick check.</Answer>
+            <Answer PedMood="Neutral">Sure. My hands are visible.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yeah. Steady me if I wobble.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Alright. No surprises please.</Answer>
+            <Answer PedMood="Sovereign">I do not consent to searches.</Answer>
+            <Answer PedMood="Sovereign">Without reasonable suspicion, I decline.</Answer>
+            <Answer PedMood="Sovereign">I am not agreeing to that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Declined, even now.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Still no without cause.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Consent">
+      <Questions>
+        <Question Question="Do you consent to a quick pat down">
+          <Answers>
+            <Answer PedMood="Sad">If you have to.</Answer>
+            <Answer PedMood="Sad">Okay. Be gentle.</Answer>
+            <Answer PedMood="Sad">Alright. Do not make a scene.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yeah. Just do not drop anything.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Okay. Move slow please.</Answer>
+            <Answer PedMood="Nervous">If required, sure.</Answer>
+            <Answer PedMood="Nervous">Okay, but I am jumpy.</Answer>
+            <Answer PedMood="Nervous">Fine. Make it quick.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Alright. Talk me through it.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Okay. This is stressing me out.</Answer>
+            <Answer PedMood="Mad">No. I do not consent.</Answer>
+            <Answer PedMood="Mad">Not without a reason.</Answer>
+            <Answer PedMood="Mad">Hard pass.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Back up with that.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Nope. Do not touch me.</Answer>
+            <Answer PedMood="Neutral">If it helps safety.</Answer>
+            <Answer PedMood="Neutral">Okay. Quick check.</Answer>
+            <Answer PedMood="Neutral">Sure. My hands are visible.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yeah. Steady me if I wobble.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Alright. No surprises please.</Answer>
+            <Answer PedMood="Sovereign">I do not consent to searches.</Answer>
+            <Answer PedMood="Sovereign">Without reasonable suspicion, I decline.</Answer>
+            <Answer PedMood="Sovereign">I am not agreeing to that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Declined, even now.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Still no without cause.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you consent to me looking inside your bag">
+          <Answers>
+            <Answer PedMood="Sad">I would rather not.</Answer>
+            <Answer PedMood="Sad">If you have to, okay.</Answer>
+            <Answer PedMood="Sad">Do not dump it out.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Fine. Be careful. I am a bit off.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Okay. Please move slow.</Answer>
+            <Answer PedMood="Nervous">If that is required, sure.</Answer>
+            <Answer PedMood="Nervous">Okay. I am nervous about it.</Answer>
+            <Answer PedMood="Nervous">Please be quick.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Alright. Just explain what you are doing.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Okay. I am calm.</Answer>
+            <Answer PedMood="Mad">No. That is my property.</Answer>
+            <Answer PedMood="Mad">Not without a reason.</Answer>
+            <Answer PedMood="Mad">I do not consent.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Nope. Step back.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Still no.</Answer>
+            <Answer PedMood="Neutral">If it helps, okay.</Answer>
+            <Answer PedMood="Neutral">You can look with my permission.</Answer>
+            <Answer PedMood="Neutral">Just keep it neat.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Okay. I might be a little slow.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Alright. You can look.</Answer>
+            <Answer PedMood="Sovereign">I do not consent to searches.</Answer>
+            <Answer PedMood="Sovereign">I decline without probable cause.</Answer>
+            <Answer PedMood="Sovereign">No consent given.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still not consenting, even now.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No consent while I am calm either.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Is there anything sharp inside before I check">
+          <Answers>
+            <Answer PedMood="Sad">No sharps.</Answer>
+            <Answer PedMood="Sad">Nothing that will poke you.</Answer>
+            <Answer PedMood="Sad">Just soft stuff.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">No. Just a bottle cap or two.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">No sharp items. Promise.</Answer>
+            <Answer PedMood="Nervous">No blades.</Answer>
+            <Answer PedMood="Nervous">Nothing sharp.</Answer>
+            <Answer PedMood="Nervous">Just a lighter and keys.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">No, and please go slow.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">No sharps. I checked.</Answer>
+            <Answer PedMood="Mad">No. Be careful anyway.</Answer>
+            <Answer PedMood="Mad">I said no.</Answer>
+            <Answer PedMood="Mad">Nothing that will cut you.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">No sharps. Watch your hands.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">No. Chill.</Answer>
+            <Answer PedMood="Neutral">No sharp items.</Answer>
+            <Answer PedMood="Neutral">You are good.</Answer>
+            <Answer PedMood="Neutral">Just normal stuff.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">No. I will stand still.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">No sharps in there.</Answer>
+            <Answer PedMood="Sovereign">I am not making statements.</Answer>
+            <Answer PedMood="Sovereign">No statements.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements right now.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Will you place your items on the ground for me">
+          <Answers>
+            <Answer PedMood="Sad">Okay. Putting them down.</Answer>
+            <Answer PedMood="Sad">Sure. Do not lose them.</Answer>
+            <Answer PedMood="Sad">I will set them here.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yeah. Do not let me drop anything.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Alright. Moving slow.</Answer>
+            <Answer PedMood="Nervous">Okay. I will place them down.</Answer>
+            <Answer PedMood="Nervous">Yes. Items on the ground.</Answer>
+            <Answer PedMood="Nervous">I will put them by my feet.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I will, just talk me through it.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I can do that. I am calm.</Answer>
+            <Answer PedMood="Mad">Fine. There.</Answer>
+            <Answer PedMood="Mad">You got what you wanted.</Answer>
+            <Answer PedMood="Mad">Happy now.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I will do it. Back up a bit.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I am doing it. Stop rushing me.</Answer>
+            <Answer PedMood="Neutral">Sure. Placing them down.</Answer>
+            <Answer PedMood="Neutral">No problem.</Answer>
+            <Answer PedMood="Neutral">Done.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">I will do it slowly.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">All set. Items down.</Answer>
+            <Answer PedMood="Sovereign">If that is a lawful order, I will comply.</Answer>
+            <Answer PedMood="Sovereign">I will comply under protest.</Answer>
+            <Answer PedMood="Sovereign">I will do that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">I will comply even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I will comply without waiving rights.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Identity">
+      <Questions>
+        <Question Question="What is your full name">
+          <Answers>
+            <Answer PedMood="Sad">I can present identification.</Answer>
+            <Answer PedMood="Sad">You can refer to my identification.</Answer>
+            <Answer PedMood="Sad">I will cooperate with a lawful ID request.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">I will provide identification if lawfully required,
+              even if I had a drink.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">You can verify everything on my identification.</Answer>
+            <Answer PedMood="Nervous">I can present identification.</Answer>
+            <Answer PedMood="Nervous">You can refer to my identification.</Answer>
+            <Answer PedMood="Nervous">I will cooperate with a lawful ID request.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I will provide identification if lawfully
+              required, even if I had a drink.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">You can verify everything on my identification.</Answer>
+            <Answer PedMood="Mad">I can present identification.</Answer>
+            <Answer PedMood="Mad">You can refer to my identification.</Answer>
+            <Answer PedMood="Mad">I will cooperate with a lawful ID request.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I will provide identification if lawfully required,
+              even if I had a drink.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">You can verify everything on my identification.</Answer>
+            <Answer PedMood="Neutral">I can present identification.</Answer>
+            <Answer PedMood="Neutral">You can refer to my identification.</Answer>
+            <Answer PedMood="Neutral">I will cooperate with a lawful ID request.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">I will provide identification if lawfully
+              required, even if I had a drink.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">You can verify everything on my identification.</Answer>
+            <Answer PedMood="Sovereign">I can present identification.</Answer>
+            <Answer PedMood="Sovereign">You can refer to my identification.</Answer>
+            <Answer PedMood="Sovereign">I will cooperate with a lawful ID request.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">I will provide identification if lawfully
+              required, even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">You can verify everything on my
+              identification.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="What is your date of birth">
+          <Answers>
+            <Answer PedMood="Sad">Date of birth is on my identification.</Answer>
+            <Answer PedMood="Sad">Refer to my identification for that.</Answer>
+            <Answer PedMood="Sad">I will provide that if required by law.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">It is on my identification, even if I sound buzzed.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">It is on my identification. You can read it.</Answer>
+            <Answer PedMood="Nervous">Date of birth is on my identification.</Answer>
+            <Answer PedMood="Nervous">Refer to my identification for that.</Answer>
+            <Answer PedMood="Nervous">I will provide that if required by law.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">It is on my identification, even if I sound
+              buzzed.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">It is on my identification. You can read it.</Answer>
+            <Answer PedMood="Mad">Date of birth is on my identification.</Answer>
+            <Answer PedMood="Mad">Refer to my identification for that.</Answer>
+            <Answer PedMood="Mad">I will provide that if required by law.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">It is on my identification, even if I sound buzzed.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">It is on my identification. You can read it.</Answer>
+            <Answer PedMood="Neutral">Date of birth is on my identification.</Answer>
+            <Answer PedMood="Neutral">Refer to my identification for that.</Answer>
+            <Answer PedMood="Neutral">I will provide that if required by law.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">It is on my identification, even if I sound
+              buzzed.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">It is on my identification. You can read it.</Answer>
+            <Answer PedMood="Sovereign">Date of birth is on my identification.</Answer>
+            <Answer PedMood="Sovereign">Refer to my identification for that.</Answer>
+            <Answer PedMood="Sovereign">I will provide that if required by law.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">It is on my identification, even if I sound
+              buzzed.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">It is on my identification. You can read it.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Where do you live">
+          <Answers>
+            <Answer PedMood="Sad">My address is on my identification.</Answer>
+            <Answer PedMood="Sad">Refer to my identification for my address.</Answer>
+            <Answer PedMood="Sad">I can show documentation if required.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Same address as on my identification.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Address is printed on my identification.</Answer>
+            <Answer PedMood="Nervous">My address is on my identification.</Answer>
+            <Answer PedMood="Nervous">Refer to my identification for my address.</Answer>
+            <Answer PedMood="Nervous">I can show documentation if required.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Same address as on my identification.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Address is printed on my identification.</Answer>
+            <Answer PedMood="Mad">My address is on my identification.</Answer>
+            <Answer PedMood="Mad">Refer to my identification for my address.</Answer>
+            <Answer PedMood="Mad">I can show documentation if required.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Same address as on my identification.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Address is printed on my identification.</Answer>
+            <Answer PedMood="Neutral">My address is on my identification.</Answer>
+            <Answer PedMood="Neutral">Refer to my identification for my address.</Answer>
+            <Answer PedMood="Neutral">I can show documentation if required.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Same address as on my identification.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Address is printed on my identification.</Answer>
+            <Answer PedMood="Sovereign">My address is on my identification.</Answer>
+            <Answer PedMood="Sovereign">Refer to my identification for my address.</Answer>
+            <Answer PedMood="Sovereign">I can show documentation if required.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Same address as on my identification.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Address is printed on my identification.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you have any warrants that you know about">
+          <Answers>
+            <Answer PedMood="Sad">Not that I know of.</Answer>
+            <Answer PedMood="Sad">I do not think so.</Answer>
+            <Answer PedMood="Sad">I have not been told that.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Not that I know of, even if I sound off.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Not that I know of. You can check.</Answer>
+            <Answer PedMood="Nervous">I do not think so.</Answer>
+            <Answer PedMood="Nervous">I hope not.</Answer>
+            <Answer PedMood="Nervous">I have no idea.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I doubt it. I would know.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">No idea. Check if you need to.</Answer>
+            <Answer PedMood="Mad">No.</Answer>
+            <Answer PedMood="Mad">Why would I.</Answer>
+            <Answer PedMood="Mad">You tell me.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">No. Even if I had a drink.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">No. Do your check.</Answer>
+            <Answer PedMood="Neutral">Not to my knowledge.</Answer>
+            <Answer PedMood="Neutral">I do not believe so.</Answer>
+            <Answer PedMood="Neutral">You can run my info.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Not to my knowledge, even now.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I do not believe so. Go ahead and check.</Answer>
+            <Answer PedMood="Sovereign">I will not make statements about that.</Answer>
+            <Answer PedMood="Sovereign">Am I being detained for a warrant.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Same answer. No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Property">
+      <Questions>
+        <Question Question="Is that your bag">
+          <Answers>
+            <Answer PedMood="Sad">Yes. It is my bag.</Answer>
+            <Answer PedMood="Sad">It belongs to me.</Answer>
+            <Answer PedMood="Sad">I carry it with me.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yes. Just handle it carefully.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yes. Please move slow with it.</Answer>
+            <Answer PedMood="Nervous">Yes. It is mine.</Answer>
+            <Answer PedMood="Nervous">I believe so.</Answer>
+            <Answer PedMood="Nervous">Pretty sure it is mine.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Yes. Please be careful.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yes. I packed it earlier.</Answer>
+            <Answer PedMood="Mad">Yeah. Why.</Answer>
+            <Answer PedMood="Mad">It is mine. Back up.</Answer>
+            <Answer PedMood="Mad">Do not touch it.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Mine. Hands off.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yes. Leave it alone.</Answer>
+            <Answer PedMood="Neutral">Yes. My bag.</Answer>
+            <Answer PedMood="Neutral">It belongs to me.</Answer>
+            <Answer PedMood="Neutral">I brought it from home.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yeah. I will hold it steady.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Yes. I can open it if needed.</Answer>
+            <Answer PedMood="Sovereign">I will not consent to searches.</Answer>
+            <Answer PedMood="Sovereign">Ownership does not equal consent.</Answer>
+            <Answer PedMood="Sovereign">It is mine. No statement beyond that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still no consent even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No consent while I am calm either.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Is this bike yours">
+          <Answers>
+            <Answer PedMood="Sad">Yes. It is my bike.</Answer>
+            <Answer PedMood="Sad">It belongs to me.</Answer>
+            <Answer PedMood="Sad">I carry it with me.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yes. Just handle it carefully.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yes. Please move slow with it.</Answer>
+            <Answer PedMood="Nervous">Yes. It is mine.</Answer>
+            <Answer PedMood="Nervous">I believe so.</Answer>
+            <Answer PedMood="Nervous">Pretty sure it is mine.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Yes. Please be careful.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yes. I packed it earlier.</Answer>
+            <Answer PedMood="Mad">Yeah. Why.</Answer>
+            <Answer PedMood="Mad">It is mine. Back up.</Answer>
+            <Answer PedMood="Mad">Do not touch it.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Mine. Hands off.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yes. Leave it alone.</Answer>
+            <Answer PedMood="Neutral">Yes. My bike.</Answer>
+            <Answer PedMood="Neutral">It belongs to me.</Answer>
+            <Answer PedMood="Neutral">I brought it from home.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yeah. I will hold it steady.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Yes. I can open it if needed.</Answer>
+            <Answer PedMood="Sovereign">I will not consent to searches.</Answer>
+            <Answer PedMood="Sovereign">Ownership does not equal consent.</Answer>
+            <Answer PedMood="Sovereign">It is mine. No statement beyond that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still no consent even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No consent while I am calm either.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Who does this phone belong to">
+          <Answers>
+            <Answer PedMood="Sad">Yes. It is my phone.</Answer>
+            <Answer PedMood="Sad">It belongs to me.</Answer>
+            <Answer PedMood="Sad">I carry it with me.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yes. Just handle it carefully.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yes. Please move slow with it.</Answer>
+            <Answer PedMood="Nervous">Yes. It is mine.</Answer>
+            <Answer PedMood="Nervous">I believe so.</Answer>
+            <Answer PedMood="Nervous">Pretty sure it is mine.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Yes. Please be careful.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yes. I packed it earlier.</Answer>
+            <Answer PedMood="Mad">Yeah. Why.</Answer>
+            <Answer PedMood="Mad">It is mine. Back up.</Answer>
+            <Answer PedMood="Mad">Do not touch it.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Mine. Hands off.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yes. Leave it alone.</Answer>
+            <Answer PedMood="Neutral">Yes. My phone.</Answer>
+            <Answer PedMood="Neutral">It belongs to me.</Answer>
+            <Answer PedMood="Neutral">I brought it from home.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yeah. I will hold it steady.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Yes. I can open it if needed.</Answer>
+            <Answer PedMood="Sovereign">I will not consent to searches.</Answer>
+            <Answer PedMood="Sovereign">Ownership does not equal consent.</Answer>
+            <Answer PedMood="Sovereign">It is mine. No statement beyond that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still no consent even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No consent while I am calm either.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Are these keys yours">
+          <Answers>
+            <Answer PedMood="Sad">Yes. It is my keys.</Answer>
+            <Answer PedMood="Sad">It belongs to me.</Answer>
+            <Answer PedMood="Sad">I carry it with me.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yes. Just handle it carefully.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yes. Please move slow with it.</Answer>
+            <Answer PedMood="Nervous">Yes. It is mine.</Answer>
+            <Answer PedMood="Nervous">I believe so.</Answer>
+            <Answer PedMood="Nervous">Pretty sure it is mine.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Yes. Please be careful.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yes. I packed it earlier.</Answer>
+            <Answer PedMood="Mad">Yeah. Why.</Answer>
+            <Answer PedMood="Mad">It is mine. Back up.</Answer>
+            <Answer PedMood="Mad">Do not touch it.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Mine. Hands off.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yes. Leave it alone.</Answer>
+            <Answer PedMood="Neutral">Yes. My keys.</Answer>
+            <Answer PedMood="Neutral">It belongs to me.</Answer>
+            <Answer PedMood="Neutral">I brought it from home.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yeah. I will hold it steady.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Yes. I can open it if needed.</Answer>
+            <Answer PedMood="Sovereign">I will not consent to searches.</Answer>
+            <Answer PedMood="Sovereign">Ownership does not equal consent.</Answer>
+            <Answer PedMood="Sovereign">It is mine. No statement beyond that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still no consent even if I had a drink.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No consent while I am calm either.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Scene">
+      <Questions>
+        <Question Question="Did you see what happened over there">
+          <Answers>
+            <Answer PedMood="Sad">I heard shouting.</Answer>
+            <Answer PedMood="Sad">Saw people running.</Answer>
+            <Answer PedMood="Sad">I kept my distance.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">I saw lights. Stayed back.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Heard noise. Tried to stay calm.</Answer>
+            <Answer PedMood="Nervous">I saw a scuffle.</Answer>
+            <Answer PedMood="Nervous">Someone yelled and ran.</Answer>
+            <Answer PedMood="Nervous">I heard a car peel out.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I saw it after a drink. Details are fuzzy.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I saw something but I was zoned out.</Answer>
+            <Answer PedMood="Mad">Not my business.</Answer>
+            <Answer PedMood="Mad">I did not see enough.</Answer>
+            <Answer PedMood="Mad">I do not want trouble.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I saw noise and walked off.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I was not focused on that.</Answer>
+            <Answer PedMood="Neutral">Looked like an argument.</Answer>
+            <Answer PedMood="Neutral">Two people pushing each other.</Answer>
+            <Answer PedMood="Neutral">A car took off fast.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Heard music and yelling from a bar.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Smelled smoke. Not sure from where.</Answer>
+            <Answer PedMood="Sovereign">Do I have to be a witness.</Answer>
+            <Answer PedMood="Sovereign">I decline to make statements.</Answer>
+            <Answer PedMood="Sovereign">I am not providing a statement.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Not making a statement while impaired.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Still declining to be a witness.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Which direction did they go">
+          <Answers>
+            <Answer PedMood="Sad">They went away from here.</Answer>
+            <Answer PedMood="Sad">I did not track it.</Answer>
+            <Answer PedMood="Sad">I was focused on staying calm.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">They went that way. I was off balance.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I lost track while trying to breathe.</Answer>
+            <Answer PedMood="Nervous">I think east.</Answer>
+            <Answer PedMood="Nervous">Maybe toward the park.</Answer>
+            <Answer PedMood="Nervous">Not sure. It happened fast.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I looked away after a drink.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I was zoned. Sorry.</Answer>
+            <Answer PedMood="Mad">Not my job to track them.</Answer>
+            <Answer PedMood="Mad">I did not care to watch.</Answer>
+            <Answer PedMood="Mad">They left. That is all.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I did not follow. I am not a snitch.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I was not paying attention to that.</Answer>
+            <Answer PedMood="Neutral">Looked like down the block.</Answer>
+            <Answer PedMood="Neutral">Toward the main road.</Answer>
+            <Answer PedMood="Neutral">Around the corner.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Down the block. I will point if needed.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Around the corner. I think.</Answer>
+            <Answer PedMood="Sovereign">I am not answering that.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">I am not a witness.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="How many people were involved">
+          <Answers>
+            <Answer PedMood="Sad">A few.</Answer>
+            <Answer PedMood="Sad">Two or three maybe.</Answer>
+            <Answer PedMood="Sad">I was not counting.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Hard to tell after a few drinks.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Looked like a group. Not sure.</Answer>
+            <Answer PedMood="Nervous">Two, maybe three.</Answer>
+            <Answer PedMood="Nervous">Three or four.</Answer>
+            <Answer PedMood="Nervous">It happened fast.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I am not sure. I was rattled.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I was spaced. Not sure.</Answer>
+            <Answer PedMood="Mad">Enough to cause trouble.</Answer>
+            <Answer PedMood="Mad">I did not count.</Answer>
+            <Answer PedMood="Mad">Why does it matter.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I did not count. I moved on.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I was not counting.</Answer>
+            <Answer PedMood="Neutral">Two.</Answer>
+            <Answer PedMood="Neutral">Three.</Answer>
+            <Answer PedMood="Neutral">A small group.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Hard to say. I will guess three.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">A small group. Maybe four.</Answer>
+            <Answer PedMood="Sovereign">I am not making a statement.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">Not answering that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Did you hear any threats or gunshots">
+          <Answers>
+            <Answer PedMood="Sad">Heard shouting.</Answer>
+            <Answer PedMood="Sad">Heard someone cursing.</Answer>
+            <Answer PedMood="Sad">Heard something break.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Heard noise after a few drinks.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Heard loud voices. I stepped back.</Answer>
+            <Answer PedMood="Nervous">Heard yelling.</Answer>
+            <Answer PedMood="Nervous">Sounded heated.</Answer>
+            <Answer PedMood="Nervous">I heard someone say move.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Heard it but I was rattled.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Heard it faintly. I was spaced.</Answer>
+            <Answer PedMood="Mad">I tune that out.</Answer>
+            <Answer PedMood="Mad">Heard noise. Did not care.</Answer>
+            <Answer PedMood="Mad">Not my drama.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I heard noise and kept walking.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I was not focused on them.</Answer>
+            <Answer PedMood="Neutral">Heard an argument.</Answer>
+            <Answer PedMood="Neutral">Heard a threat maybe.</Answer>
+            <Answer PedMood="Neutral">Heard a bottle break.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Heard loud music and yelling.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Heard tires spin.</Answer>
+            <Answer PedMood="Sovereign">I am not a witness.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">No statement to give.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements at this time.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Welfare">
+      <Questions>
+        <Question Question="Are you injured or need medical help">
+          <Answers>
+            <Answer PedMood="Sad">I am okay.</Answer>
+            <Answer PedMood="Sad">No injuries.</Answer>
+            <Answer PedMood="Sad">Just tired.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">A little off, had some drinks.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I am fine. Just slow.</Answer>
+            <Answer PedMood="Nervous">I am fine.</Answer>
+            <Answer PedMood="Nervous">No medical help needed.</Answer>
+            <Answer PedMood="Nervous">I can walk.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I am fine. Just a little buzzed.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">No, I am just spaced.</Answer>
+            <Answer PedMood="Mad">I do not need help.</Answer>
+            <Answer PedMood="Mad">I am good.</Answer>
+            <Answer PedMood="Mad">Do not call anyone.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">I am good. Do not overreact.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I am fine. Stop asking.</Answer>
+            <Answer PedMood="Neutral">I am okay.</Answer>
+            <Answer PedMood="Neutral">No help needed.</Answer>
+            <Answer PedMood="Neutral">I feel alright.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">No ambulance. I can sit down.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I am steady enough.</Answer>
+            <Answer PedMood="Sovereign">I decline medical help.</Answer>
+            <Answer PedMood="Sovereign">If I need help, I will ask.</Answer>
+            <Answer PedMood="Sovereign">No consent to treatment.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still declining.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No treatment right now.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you have any medical conditions I should know about">
+          <Answers>
+            <Answer PedMood="Sad">Nothing urgent.</Answer>
+            <Answer PedMood="Sad">I have some stress.</Answer>
+            <Answer PedMood="Sad">No conditions to share.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Nothing besides being a little buzzed.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Just trying to calm down.</Answer>
+            <Answer PedMood="Nervous">None that matter here.</Answer>
+            <Answer PedMood="Nervous">I get anxious sometimes.</Answer>
+            <Answer PedMood="Nervous">No conditions to declare.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Nothing that needs treatment. Maybe a drink
+              earlier.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I feel fine enough.</Answer>
+            <Answer PedMood="Mad">Not your business.</Answer>
+            <Answer PedMood="Mad">No.</Answer>
+            <Answer PedMood="Mad">I am good.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">No. Even if I had a drink.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I said no.</Answer>
+            <Answer PedMood="Neutral">No major conditions.</Answer>
+            <Answer PedMood="Neutral">Nothing that needs attention.</Answer>
+            <Answer PedMood="Neutral">No issues to share.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Nothing beyond a drink earlier.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">No, I feel okay.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">I do not consent to sharing that.</Answer>
+            <Answer PedMood="Sovereign">No medical statements.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Declining to answer.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No statements.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Are you carrying any prescriptions">
+          <Answers>
+            <Answer PedMood="Sad">Yes, for personal use.</Answer>
+            <Answer PedMood="Sad">I have them as directed.</Answer>
+            <Answer PedMood="Sad">I carry what I need.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yes, even if I had a drink.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yes, they are in my bag.</Answer>
+            <Answer PedMood="Nervous">Yes, as prescribed.</Answer>
+            <Answer PedMood="Nervous">I have some in the bottle.</Answer>
+            <Answer PedMood="Nervous">I carry a few.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Yes. Please be careful.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yes, labeled and all.</Answer>
+            <Answer PedMood="Mad">Yes. Legal.</Answer>
+            <Answer PedMood="Mad">They are prescriptions. Relax.</Answer>
+            <Answer PedMood="Mad">I am not abusing them.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Yes. Do not dig through them.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yes. Back up.</Answer>
+            <Answer PedMood="Neutral">Yes. All labeled.</Answer>
+            <Answer PedMood="Neutral">Yes. I can show the bottle.</Answer>
+            <Answer PedMood="Neutral">Yes. As directed.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yes. I can show the label.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Yes. I will keep them sealed.</Answer>
+            <Answer PedMood="Sovereign">I will not consent to a search of them.</Answer>
+            <Answer PedMood="Sovereign">They are legal and labeled.</Answer>
+            <Answer PedMood="Sovereign">No statements about my medication.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still not consenting to a search.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No statements.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Do you need an ambulance">
+          <Answers>
+            <Answer PedMood="Sad">No ambulance needed.</Answer>
+            <Answer PedMood="Sad">I am okay.</Answer>
+            <Answer PedMood="Sad">I will sit down instead.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">No. I just had a drink.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">No. I need a minute.</Answer>
+            <Answer PedMood="Nervous">No. I am fine.</Answer>
+            <Answer PedMood="Nervous">No need.</Answer>
+            <Answer PedMood="Nervous">I can walk on my own.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">No. I am just buzzed.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">No. I can breathe.</Answer>
+            <Answer PedMood="Mad">No.</Answer>
+            <Answer PedMood="Mad">Do not call one.</Answer>
+            <Answer PedMood="Mad">I said I am fine.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">No. Do not do that.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Still no.</Answer>
+            <Answer PedMood="Neutral">No, thanks.</Answer>
+            <Answer PedMood="Neutral">I am good.</Answer>
+            <Answer PedMood="Neutral">I do not need one.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">No. I will hydrate instead.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">No. I am steady enough.</Answer>
+            <Answer PedMood="Sovereign">I decline medical transport.</Answer>
+            <Answer PedMood="Sovereign">No consent to that.</Answer>
+            <Answer PedMood="Sovereign">Not requesting an ambulance.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Still declining.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No ambulance at this time.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Street - Restrictions">
+      <Questions>
+        <Question Question="Are you on probation or parole">
+          <Answers>
+            <Answer PedMood="Sad">I would rather not discuss that.</Answer>
+            <Answer PedMood="Sad">No statements about that.</Answer>
+            <Answer PedMood="Sad">I will cooperate if required.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Not discussing that even now.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">No statement on that.</Answer>
+            <Answer PedMood="Nervous">I do not want to talk about that.</Answer>
+            <Answer PedMood="Nervous">I am not sure how to answer.</Answer>
+            <Answer PedMood="Nervous">I do not think so.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I do not want to say while buzzed.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I would rather not say.</Answer>
+            <Answer PedMood="Mad">Not your business.</Answer>
+            <Answer PedMood="Mad">No.</Answer>
+            <Answer PedMood="Mad">You tell me.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Still not your business.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">No comment.</Answer>
+            <Answer PedMood="Neutral">Not to my knowledge.</Answer>
+            <Answer PedMood="Neutral">I do not believe so.</Answer>
+            <Answer PedMood="Neutral">I can speak with you if required.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Same answer, even now.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I do not believe so.</Answer>
+            <Answer PedMood="Sovereign">No statements about legal status.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">Am I obligated to state that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Are you allowed to be in this area">
+          <Answers>
+            <Answer PedMood="Sad">I am just passing through.</Answer>
+            <Answer PedMood="Sad">I did not know there were limits.</Answer>
+            <Answer PedMood="Sad">I will move along if needed.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">I will move along. I am a bit off.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I will keep moving.</Answer>
+            <Answer PedMood="Nervous">I think I am allowed.</Answer>
+            <Answer PedMood="Nervous">I did not see any signs.</Answer>
+            <Answer PedMood="Nervous">If not, I can leave.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I will leave if I need to.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I can step away.</Answer>
+            <Answer PedMood="Mad">I can be here.</Answer>
+            <Answer PedMood="Mad">I am allowed to stand here.</Answer>
+            <Answer PedMood="Mad">Show me where it says I cannot.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Still allowed to be here.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I am not moving.</Answer>
+            <Answer PedMood="Neutral">I am allowed as far as I know.</Answer>
+            <Answer PedMood="Neutral">I did not see any restrictions.</Answer>
+            <Answer PedMood="Neutral">I will step aside if required.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">I will cooperate, even now.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I can relocate.</Answer>
+            <Answer PedMood="Sovereign">I do not waive rights by standing here.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">Is there a lawful order to leave.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">No statements.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Are you subject to a curfew">
+          <Answers>
+            <Answer PedMood="Sad">I did not know about a curfew.</Answer>
+            <Answer PedMood="Sad">I am heading home.</Answer>
+            <Answer PedMood="Sad">I will clear the area.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">I will head home now.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I will move out gently.</Answer>
+            <Answer PedMood="Nervous">I am not aware of one.</Answer>
+            <Answer PedMood="Nervous">If there is, I can leave.</Answer>
+            <Answer PedMood="Nervous">I will comply.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I will go home. I am a little buzzed.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">I will leave now.</Answer>
+            <Answer PedMood="Mad">Curfew does not apply to me.</Answer>
+            <Answer PedMood="Mad">I am fine to be here.</Answer>
+            <Answer PedMood="Mad">I am not bothering anyone.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Still fine. Do not push it.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">I am staying.</Answer>
+            <Answer PedMood="Neutral">I did not check, but I can leave.</Answer>
+            <Answer PedMood="Neutral">I will comply if there is one.</Answer>
+            <Answer PedMood="Neutral">Let me know what you need.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">I will comply. Even now.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I will head out.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">Is there a lawful order to disperse.</Answer>
+            <Answer PedMood="Sovereign">I will comply with a lawful order.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">I will comply if lawfully ordered.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer otherwise.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Are there any court orders I should know about">
+          <Answers>
+            <Answer PedMood="Sad">Nothing to share.</Answer>
+            <Answer PedMood="Sad">I do not think so.</Answer>
+            <Answer PedMood="Sad">No orders I know of.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Not that I know, even now.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">I do not think so.</Answer>
+            <Answer PedMood="Nervous">I do not know.</Answer>
+            <Answer PedMood="Nervous">I hope not.</Answer>
+            <Answer PedMood="Nervous">I am not sure.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">I do not know. I am a bit off.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Not sure right now.</Answer>
+            <Answer PedMood="Mad">No.</Answer>
+            <Answer PedMood="Mad">You tell me.</Answer>
+            <Answer PedMood="Mad">Not your concern.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">No. Still no.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">No comment.</Answer>
+            <Answer PedMood="Neutral">Not to my knowledge.</Answer>
+            <Answer PedMood="Neutral">I do not believe so.</Answer>
+            <Answer PedMood="Neutral">You can check that.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Same answer, even now.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">I do not believe so.</Answer>
+            <Answer PedMood="Sovereign">No statements about legal orders.</Answer>
+            <Answer PedMood="Sovereign">I decline to answer.</Answer>
+            <Answer PedMood="Sovereign">Am I required to state that.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">No statements.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">I choose not to answer.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+  </QuestionGroups>
+</CustomQuestions>

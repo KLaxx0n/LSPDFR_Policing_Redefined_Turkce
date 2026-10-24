@@ -1,0 +1,20 @@
+<!--
+    This defines custom unit names for a VehicleDivision of the default & custom regions, aswell as of special units.
+    To define a list of names for a VehicleDivision, simply follow these instructions:
+        1. Create a CustomNameList element and assign a UNIQUE 'id' attribute. It can be any string, doesn't really matter as long as it's not empty.
+        2. Assign a 'name_list_id' attribute to the desired VehicleDivision, where the value is the value of the 'id' attribute of the name list.
+        For example:
+            <VehicleDivision spawn_distance="250" chance="100" name_list_id="lspd">...</VehicleDivision>
+    
+    PR ensures that there are no duplicates, meaning two units cannot have the same name at the same time.
+    If all names of a list are currently in use, it will choose a random one from the list and append the units internal '-<ID>' to the end of the name.
+    This way all active units always have distinct names.
+
+    If you don't define any name lists (or don't assign any) then PR will default to '<BACKUP_TYPE>-<ID>'.
+-->
+
+<CustomUnitNames xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CustomNameList id="lspd">
+        <Name>ADAM-14</Name>
+    </CustomNameList>
+</CustomUnitNames>

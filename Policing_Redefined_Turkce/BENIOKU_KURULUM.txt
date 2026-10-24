@@ -1,0 +1,26 @@
+==================================================
+POLICING REDEFINED - TAM TURKCE YAMA (FULL MOD) -- By KLaxx0n
+==================================================
+
+Bu arsiv, Policing Redefined modunun tum dosyalarini ve
+eksiksiz Turkce cevirisini icermektedir.
+
+[KURULUM]
+1. 'plugins' klasorunu dogrudan ana GTA V klasorunuze
+   (Grand Theft Auto V) surukleyip birakin.
+2. Dosya degisimi sorarsa 'Hedefteki dosyalari degistir'i secin.
+
+[ICERIK]
+- plugins/LSPDFR/PolicingRedefined.dll
+- plugins/LSPDFR/PolicingRedefined.pdb
+- plugins/LSPDFR/PolicingRedefined/
+    - Loadouts.xml (Turkce)
+    - PatDownItems.xml (Turkce)
+    - Questions.xml (Turkce - 975 Yanit)
+    - TrafficStopQuestions.xml (Turkce - 1200 Yanit)
+    - VehicleSearchItems.xml (Turkce)
+    - Audio/ (Ses dosyalari)
+    - Backup/SpecialUnits.xml (Turkce Destek Birimleri)
+    - Data/
+    - Settings/LocalizationSettings.ini (Turkce - 714 Satir)
+- Orijinal_Ingilizce_Yedekler/ (Modun ceviri oncesi orijinal Ingilizce dosyalari)

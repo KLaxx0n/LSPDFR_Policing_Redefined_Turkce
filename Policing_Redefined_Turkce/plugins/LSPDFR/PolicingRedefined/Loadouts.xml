@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LoadoutsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AllLoadouts>
+  
+    <Loadout LoadoutName="Varsayılan Teçhizat" IsDefaultLoadout="true">
+      <LoadoutWeapons>
+        <LoadoutWeapon WeaponHash="WEAPON_PUMPSHOTGUN" StartingAmmoCount="20" IsVehicleWeapon="true" WeaponLocation="FrontDoors" WeaponDisplayName="Pompalı Tüfek">
+          <WeaponComponents>
+            <WeaponComponent ComponentHash="COMPONENT_AT_AR_FLSH"/>
+          </WeaponComponents>
+        </LoadoutWeapon>
+        
+        <LoadoutWeapon WeaponHash="WEAPON_CARBINERIFLE" StartingAmmoCount="60" IsVehicleWeapon="true" UseRackingAnimation="true" WeaponLocation="FrontDoors" WeaponDisplayName="Piyade Tüfeği (Carbine)">
+          <WeaponComponents>
+            <WeaponComponent ComponentHash="COMPONENT_AT_AR_FLSH"/>
+            <WeaponComponent ComponentHash="COMPONENT_AT_AR_AFGRIP"/>
+          </WeaponComponents>
+        </LoadoutWeapon>
+
+        <LoadoutWeapon WeaponHash="WEAPON_GRENADELAUNCHER_SMOKE" StartingAmmoCount="20" IsVehicleWeapon="true" WeaponLocation="Trunk" WeaponDisplayName="Gaz Bombaatar">
+          <WeaponComponents>
+            <WeaponComponent ComponentHash="COMPONENT_AT_AR_FLSH"/>
+          </WeaponComponents>
+        </LoadoutWeapon>
+
+        <LoadoutWeapon WeaponHash="WEAPON_PISTOL" StartingAmmoCount="90">
+          <WeaponComponents>
+            <WeaponComponent ComponentHash="COMPONENT_AT_PI_FLSH"/>
+          </WeaponComponents>
+        </LoadoutWeapon>
+		
+		    <LoadoutWeapon WeaponHash="WEAPON_STUNGUN">
+          <WeaponComponents>
+          </WeaponComponents>
+        </LoadoutWeapon>
+		
+		    <LoadoutWeapon WeaponHash="WEAPON_NIGHTSTICK">
+          <WeaponComponents>
+          </WeaponComponents>
+        </LoadoutWeapon>
+      </LoadoutWeapons>
+    </Loadout>
+	
+  </AllLoadouts>
+</LoadoutsRoot>

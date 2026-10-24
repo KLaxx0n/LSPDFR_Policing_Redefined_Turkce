@@ -1,0 +1,1589 @@
+﻿<PolicingRedefined xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalPatrol>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirtoverlay="56" comp_accessories="59" comp_pants="36" comp_shoes="26" chance="40">MP_M_FREEMODE_01</Ped>
+          <Ped comp_shirt="2" comp_accessories="2" prop_glasses="4" prop_hats="1" chance="25">S_M_Y_COP_01</Ped>
+          <Ped random_props="true" chance="25">S_M_Y_COP_01</Ped>
+          <Ped comp_shirtoverlay="49" comp_shirt="15" comp_accessories="36" comp_pants="35" comp_shoes="26" chance="5">MP_F_FREEMODE_01</Ped>
+          <Ped comp_shirt="2" comp_accessories="2" prop_hats="0" chance="5">S_F_Y_COP_01</Ped>
+          <Ped rain_outfit="true" comp_shirtoverlay="218" tex_shirtoverlay="6" comp_accessories="6" comp_pants="36" comp_shoes="26" prop_hats="47" chance="90">MP_M_FREEMODE_01</Ped>
+          <Ped rain_outfit="true" comp_shirtoverlay="191" tex_shirtoverlay="4" comp_shirt="15" comp_pants="35" comp_shoes="26" chance="10">MP_F_FREEMODE_01</Ped>
+          <Ped snow_outfit="true" comp_shirtoverlay="71" tex_shirtoverlay="10" comp_shirt="18" comp_accessories="28" comp_pants="36" comp_shoes="26" prop_hats="47" chance="90">MP_M_FREEMODE_01</Ped>
+          <Ped snow_outfit="true" comp_shirtoverlay="66" tex_shirtoverlay="11" comp_shirt="15" comp_accessories="102" comp_pants="35" comp_shoes="26" prop_hats="47" chance="10">MP_F_FREEMODE_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="40" chance="33">POLICE</Vehicle>
+          <Vehicle pax="1" pax_chance="25" chance="33">POLICE2</Vehicle>
+          <Vehicle pax="1" pax_chance="25" chance="34">POLICE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="90">WEAPON_PISTOL</HandGun>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="10">WEAPON_COMBATPISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" prop_glasses="2" prop_hats="1" chance="90">S_M_Y_SHERIFF_01</Ped>
+          <Ped comp_shirt="2" prop_hats="1" chance="10">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="40" chance="50">SHERIFF</Vehicle>
+          <Vehicle pax="1" pax_chance="25" chance="50">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="90">WEAPON_PISTOL</HandGun>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="10">WEAPON_COMBATPISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" prop_glasses="2" prop_hats="1" chance="90">S_M_Y_SHERIFF_01</Ped>
+          <Ped comp_shirt="2" prop_hats="1" chance="10">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="50">SHERIFF</Vehicle>
+          <Vehicle pax="1" pax_chance="25" chance="50">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="90">WEAPON_PISTOL</HandGun>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="10">WEAPON_COMBATPISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_accessories="1" prop_glasses="1" prop_hats="1" chance="60">S_M_M_SNOWCOP_01</Ped>
+          <Ped prop_glasses="2" prop_hats="2" chance="40">S_M_M_SNOWCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="25" chance="75">POLICEOLD1</Vehicle>
+          <Vehicle pax="1" pax_chance="25" chance="25">POLICEOLD2</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="90">WEAPON_PISTOL</HandGun>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="10">WEAPON_COMBATPISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </LocalPatrol>
+  <LocalFemalePatrol>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirtoverlay="49" comp_shirt="15" comp_accessories="36" comp_pants="35" comp_shoes="26" chance="60">MP_F_FREEMODE_01</Ped>
+          <Ped prop_hats="0" chance="40">S_F_Y_COP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="50" chance="33">POLICE</Vehicle>
+          <Vehicle pax="1" pax_chance="43" chance="33">POLICE2</Vehicle>
+          <Vehicle pax="1" pax_chance="43" chance="34">POLICE3</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" prop_hats="2" chance="100">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="40" chance="50">SHERIFF</Vehicle>
+          <Vehicle pax="1" pax_chance="33" chance="50">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" prop_hats="2" chance="100">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="40" chance="50">SHERIFF</Vehicle>
+          <Vehicle pax="1" pax_chance="33" chance="50">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" prop_hats="2" chance="100">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="25" chance="75">POLICEOLD1</Vehicle>
+          <Vehicle pax="1" pax_chance="25" chance="25">POLICEOLD2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </LocalFemalePatrol>
+  <StatePatrol>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="70">
+        <Peds>
+          <Ped comp_shirt="1" comp_decals="1" comp_pants="2" prop_glasses="2" tex_glasses="1" prop_hats="0" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="Black" pax="1" pax_chance="25" chance="100">POLICE4</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+      <VehicleDivision spawn_distance="250" chance="30">
+        <Peds>
+          <Ped comp_shirt="2" comp_decals="2" comp_pants="1" prop_glasses="1" tex_glasses="2" prop_hats="1" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">POLICEB</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="40">
+        <Peds>
+          <Ped comp_decals="1" comp_pants="2" prop_glasses="2" tex_glasses="1" prop_hats="0" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="Black" pax="1" pax_chance="25" chance="100">POLICE4</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+      <VehicleDivision spawn_distance="250" chance="60">
+        <Peds>
+          <Ped comp_shirt="2" comp_decals="2" comp_pants="1" prop_glasses="1" tex_glasses="2" prop_hats="1" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">POLICEB</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="40">
+        <Peds>
+          <Ped comp_decals="1" comp_pants="2" prop_glasses="2" tex_glasses="1" prop_hats="0" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="Black" pax="1" pax_chance="25" chance="100">POLICE4</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+      <VehicleDivision spawn_distance="250" chance="60">
+        <Peds>
+          <Ped comp_shirt="2" comp_decals="2" comp_pants="1" prop_glasses="1" tex_glasses="2" prop_hats="1" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">POLICEB</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_accessories="1" prop_glasses="1" prop_hats="1" chance="50">S_M_M_SNOWCOP_01</Ped>
+          <Ped prop_glasses="2" prop_hats="2" chance="50">S_M_M_SNOWCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="25" chance="75">POLICEOLD1</Vehicle>
+          <Vehicle pax="1" pax_chance="25" chance="25">POLICEOLD2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </StatePatrol>
+  <StateFemalePatrol>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_F_Y_RANGER_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="White" pax="1" pax_chance="40" chance="100">POLICE4</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_F_Y_RANGER_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="White" pax="1" pax_chance="40" chance="100">POLICE4</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_F_Y_RANGER_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="White" pax="1" pax_chance="40" chance="100">POLICE4</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_F_Y_RANGER_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="White" pax="1" pax_chance="40" chance="100">POLICE4</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </StateFemalePatrol>
+  <LocalSWAT>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="1" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="black" pax="3" pax_chance="100" chance="100">FBI2</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="1" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="100">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="1" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="100">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="75">POLICEOLD1</Vehicle>
+          <Vehicle pax="3" pax_chance="100" chance="25">POLICEOLD2</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </LocalSWAT>
+  <NooseSWAT>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="7" pax_chance="100" chance="100">RIOT</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="200" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="7" pax_chance="100" chance="100">RIOT</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="200" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="7" pax_chance="100" chance="100">RIOT</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="200" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="100">RIOT</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+          <LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+          <HandGun chance="25">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+          <NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </NooseSWAT>
+  <LocalK9Patrol>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" k9_model="SHEPHERD" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1" chance="100">
+        <Peds>
+          <Ped comp_accessories="1" prop_glasses="4" chance="90">S_M_Y_COP_01</Ped>
+          <Ped chance="10">S_F_Y_COP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">POLICE3</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" k9_model="ROTTWEILER" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1" chance="100">
+        <Peds>
+          <Ped prop_glasses="2" chance="90">S_M_Y_SHERIFF_01</Ped>
+          <Ped chance="10">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" k9_model="ROTTWEILER" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" prop_glasses="2" prop_hats="2" chance="90">S_M_Y_SHERIFF_01</Ped>
+          <Ped comp_shirt="2" prop_hats="2" chance="10">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_accessories="1" prop_glasses="1" prop_hats="1" chance="60">S_M_M_SNOWCOP_01</Ped>
+          <Ped prop_glasses="2" prop_hats="2" chance="40">S_M_M_SNOWCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">POLICEOLD2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </LocalK9Patrol>
+  <StateK9Patrol>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" k9_model="HUSKY" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1" chance="100">
+        <Peds>
+          <Ped comp_decals="1" comp_pants="2" prop_hats="0" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FBI2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" k9_model="RETRIEVER" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1" chance="100">
+        <Peds>
+          <Ped comp_decals="1" comp_pants="2" prop_hats="0" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FBI2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" k9_model="RETRIEVER" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1" chance="100">
+        <Peds>
+          <Ped comp_decals="1" comp_pants="2" prop_hats="0" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FBI2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_decals="1" comp_pants="2" prop_hats="0" chance="100">S_M_Y_HWAYCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FBI2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </StateK9Patrol>
+  <LocalAir>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_tasks="2" prop_hats="1" chance="100">S_M_Y_PILOT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="1" chance="100">POLMAV</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_tasks="2" prop_hats="1" chance="100">S_M_Y_PILOT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="1" chance="100">POLMAV</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_tasks="2" prop_hats="1" chance="100">S_M_Y_PILOT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="1" chance="100">POLMAV</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="150" chance="100">
+        <Peds>
+          <Ped comp_tasks="2" prop_hats="1" chance="100">S_M_Y_PILOT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="1" chance="100">POLMAV</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </LocalAir>
+  <NooseAir>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="100">BUZZARD</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="100">BUZZARD</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="100">BUZZARD</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_decals="1" tex_decals="2" prop_hats="1" chance="100">S_M_Y_SWAT_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="3" pax_chance="100" chance="100">BUZZARD</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </NooseAir>
+  <PoliceTransport>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="30">S_M_Y_COP_01</Ped>
+          <Ped chance="70">S_F_Y_COP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="50">POLICET</Vehicle>
+          <Vehicle chance="20">POLICE</Vehicle>
+          <Vehicle chance="15">POLICE2</Vehicle>
+          <Vehicle chance="15">POLICE3</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="30">S_M_Y_SHERIFF_01</Ped>
+          <Ped chance="70">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="50">POLICET</Vehicle>
+          <Vehicle chance="25">SHERIFF</Vehicle>
+          <Vehicle chance="25">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="30">S_M_Y_SHERIFF_01</Ped>
+          <Ped chance="70">S_F_Y_SHERIFF_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="50">POLICET</Vehicle>
+          <Vehicle chance="25">SHERIFF</Vehicle>
+          <Vehicle chance="25">SHERIFF2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_SNOWCOP_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="50">POLICET</Vehicle>
+          <Vehicle chance="25">POLICEOLD1</Vehicle>
+          <Vehicle chance="25">POLICEOLD1</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </PoliceTransport>
+  <Ambulance>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_PARAMEDIC_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="2" chance="100">AMBULANCE</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_PARAMEDIC_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="3" chance="100">AMBULANCE</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_PARAMEDIC_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="2" chance="100">AMBULANCE</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_PARAMEDIC_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="100" livery="2" chance="100">AMBULANCE</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </Ambulance>
+  <FireDepartment>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" comp_accessories="3" prop_hats="1" tex_hats="1" chance="100">S_M_Y_FIREMAN_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100" pax="4" pax_chance="100">FIRETRUK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" comp_accessories="3" prop_hats="1" tex_hats="2" chance="100">S_M_Y_FIREMAN_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100" pax="4" pax_chance="100">FIRETRUK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" comp_accessories="3" prop_hats="1" tex_hats="2" chance="100">S_M_Y_FIREMAN_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100" pax="4" pax_chance="100">FIRETRUK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_shirt="2" comp_accessories="3" prop_hats="1" tex_hats="3" chance="100">S_M_Y_FIREMAN_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100" pax="4" pax_chance="100">FIRETRUK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </FireDepartment>
+  <Coroner>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_DOCTOR_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="White" pax="1" pax_chance="100" chance="100">SPEEDO</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_DOCTOR_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="Black" pax="1" pax_chance="100" chance="100">SPEEDO</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_DOCTOR_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="Black" pax="1" pax_chance="100" chance="100">SPEEDO</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">S_M_M_DOCTOR_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle color="White" pax="1" pax_chance="100" chance="100">SPEEDO</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="1" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="1" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+          <Ped comp_face="2" tex_face="2" comp_hair="2" tex_hair="1" comp_shirt="1" tex_shirt="1" comp_accessories="1" tex_accessories="2" comp_pants="1" tex_pants="2" comp_tasks="1" tex_tasks="4" chance="25">S_M_Y_BlackOps_01</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle pax="1" pax_chance="33" chance="70">CRUSADER</Vehicle>
+          <Vehicle pax="1" pax_chance="60" chance="30">DUNE3</Vehicle>
+        </Vehicles>
+        <LongGuns>
+          <LongGun comp_1="COMPONENT_AT_AR_FLSH" chance="67">WEAPON_CARBINERIFLE</LongGun>
+          <LongGun chance="33">WEAPON_PUMPSHOTGUN</LongGun>
+        </LongGuns>
+        <HandGuns>
+          <HandGun comp_1="COMPONENT_AT_PI_FLSH" chance="100">WEAPON_PISTOL</HandGun>
+        </HandGuns>
+        <NonLethals>
+          <NonLethal>WEAPON_STUNGUN</NonLethal>
+        </NonLethals>
+      </VehicleDivision>
+    </CayoPerico>
+  </Coroner>
+  <SmallTowTruck>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK2</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </CayoPerico>
+  </SmallTowTruck>
+  <LargeTowTruck>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">TOWTRUCK</Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </CayoPerico>
+  </LargeTowTruck>
+  <FlatbedTowTruck>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FLATBED<ExtraData xsi:type="TowTruckData" offset_x="0" offset_y="-2.2" offset_z="1" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FLATBED<ExtraData xsi:type="TowTruckData" offset_x="0" offset_y="-2.2" offset_z="1" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FLATBED<ExtraData xsi:type="TowTruckData" offset_x="0" offset_y="-2.2" offset_z="1" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FLATBED<ExtraData xsi:type="TowTruckData" offset_x="0" offset_y="-2.2" offset_z="1" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped comp_face="1" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="1" tex_face="2" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="2" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+          <Ped comp_face="3" tex_face="1" chance="25">S_M_Y_DWService_02</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">FLATBED<ExtraData xsi:type="TowTruckData" offset_x="0" offset_y="-2.2" offset_z="1" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </CayoPerico>
+  </FlatbedTowTruck>
+  <AnimalControl>
+    <LosSantosCity>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">CSB_TrafficWarden</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">REBEL2<ExtraData xsi:type="AnimalControlData" delete_animal="false" offset_x="0" offset_y="-1.7" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCity>
+    <LosSantosCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">CSB_TrafficWarden</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">REBEL2<ExtraData xsi:type="AnimalControlData" delete_animal="false" offset_x="0" offset_y="-1.7" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </LosSantosCounty>
+    <BlaineCounty>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">CSB_TrafficWarden</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">REBEL2<ExtraData xsi:type="AnimalControlData" delete_animal="false" offset_x="0" offset_y="-1.7" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </BlaineCounty>
+    <NorthYankton>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">CSB_TrafficWarden</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">REBEL2<ExtraData xsi:type="AnimalControlData" delete_animal="false" offset_x="0" offset_y="-1.7" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </NorthYankton>
+    <CayoPerico>
+      <VehicleDivision spawn_distance="250" chance="100">
+        <Peds>
+          <Ped chance="100">CSB_TrafficWarden</Ped>
+        </Peds>
+        <Vehicles>
+          <Vehicle chance="100">REBEL2<ExtraData xsi:type="AnimalControlData" delete_animal="false" offset_x="0" offset_y="-1.7" /></Vehicle>
+        </Vehicles>
+        <LongGuns />
+        <HandGuns />
+        <NonLethals />
+      </VehicleDivision>
+    </CayoPerico>
+  </AnimalControl>
+</PolicingRedefined>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VehicleSearchItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <RedItems>
+      <Item xsi:type="Firearm" Chance="Normal" FirearmState="Normal">a handgun</Item>
+      <Item xsi:type="Firearm" Chance="Rare" FirearmState="ScratchedSN">a handgun with a tampered serial number</Item>
+      <Item xsi:type="Firearm" Chance="Rare" FirearmState="Normal">a long gun</Item>
+      <Item xsi:type="Firearm" Chance="VeryRare" FirearmState="ScratchedSN">a compact firearm with the serial number filed off</Item>
+
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Cocaine">multiple small baggies of cocaine packaged for sale</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Heroin">a tied bundle of heroin</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Fentanyl">a folded foil with fentanyl residue</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="PCP">a small vial of PCP solution</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Cannabis">vacuum-sealed cannabis</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Oxycodone">a prescription bottle for someone else containing oxycodone</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Hydrocodone">a pill organizer filled with hydrocodone tablets</Item>
+
+      <Item Chance="Rare">a box of stolen credit cards</Item>
+      <Item Chance="Rare">a portable credit card skimmer</Item>
+      <Item Chance="Rare">vehicle title paperwork for another owner</Item>
+      <Item Chance="Rare">a forged government ID</Item>
+      <Item Chance="VeryRare">an improvised explosive device component</Item>
+
+      <Item Chance="Rare">a sealed brick of currency wrapped with rubber bands</Item>
+   </RedItems>
+
+   <YellowItems>
+      <Item xsi:type="Weapon" Chance="Often">a folding pocket knife</Item>
+      <Item xsi:type="Weapon" Chance="Normal">a fixed-blade knife</Item>
+      <Item xsi:type="Weapon" Chance="Rare">a collapsible baton</Item>
+      <Item xsi:type="Weapon" Chance="Rare">brass knuckles</Item>
+
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Methamphetamine">a glass pipe with scorch marks</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Heroin">a burnt spoon and cotton swab</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Morphine">a capped syringe in a cup holder</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="LSD">a strip of blotter paper</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Adderall">loose stimulant pills without a label</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Ritalin">unmarked tablets in a plastic wrap</Item>
+
+      <Item Chance="Normal">a lockpick set in a zip case</Item>
+      <Item Chance="Normal">a slim jim door tool</Item>
+      <Item Chance="Normal">bolt cutters in the trunk</Item>
+      <Item Chance="Rare">a pry bar with fresh paint transfer</Item>
+      <Item Chance="Rare">a cordless drill with assorted bits</Item>
+      <Item Chance="Rare">a glass-punch window tool</Item>
+      <Item Chance="Rare">a handheld OBD device with cables</Item>
+
+      <Item Chance="Normal">a second license plate that doesn't match the vehicle</Item>
+      <Item Chance="Rare">VIN rivets and a partially scraped VIN tag</Item>
+      <Item Chance="Normal">a roll of duct tape and black electrical tape</Item>
+      <Item Chance="Normal">a balaclava rolled into the glovebox</Item>
+
+      <Item Chance="Normal">two prepaid cellphones</Item>
+      <Item Chance="Normal">a walkie-talkie set</Item>
+      <Item Chance="Normal">a thick roll of small-denomination cash</Item>
+
+      <Item Chance="Normal">an open beer can in the rear footwell</Item>
+      <Item Chance="Normal">a half-empty liquor bottle under the seat</Item>
+   </YellowItems>
+
+   <GreenItems>
+      <Item Chance="VeryOften">a registration and insurance card in the glovebox</Item>
+      <Item Chance="Often">a wallet with a driver's license</Item>
+      <Item Chance="Often">a phone charging cable</Item>
+      <Item Chance="Often">a pack of cigarettes</Item>
+      <Item Chance="Often">sunglasses in a hard case</Item>
+      <Item Chance="Often">loose change in the center console</Item>
+      <Item Chance="Normal">a work ID badge on a lanyard</Item>
+      <Item Chance="Normal">a pay stub folded in half</Item>
+
+      <Item Chance="Often">a basic tool kit</Item>
+      <Item Chance="Often">jumper cables</Item>
+      <Item Chance="Normal">a tire inflator</Item>
+      <Item Chance="Normal">a roadside safety triangle</Item>
+      <Item Chance="Normal">a first aid kit</Item>
+      <Item Chance="Normal">a tow strap</Item>
+      <Item Chance="Normal">a bottle of motor oil</Item>
+      <Item Chance="Normal">a roll of shop towels</Item>
+
+      <Item Chance="VeryOften">a reusable water bottle</Item>
+      <Item Chance="Often">a backpack with school supplies</Item>
+      <Item Chance="Often">a hoodie</Item>
+      <Item Chance="Normal">a fast-food bag with receipts</Item>
+      <Item Chance="Normal">an umbrella</Item>
+      <Item Chance="Normal">a phone mount on the windshield</Item>
+      <Item Chance="Normal">a portable power bank</Item>
+      <Item Chance="Normal">a small flashlight</Item>
+      <Item Chance="Normal">a pair of work gloves</Item>
+      <Item Chance="Normal">a blanket in the trunk</Item>
+      <Item Chance="Normal">a pocket notebook and pen</Item>
+
+      <Item Chance="Normal">a child's car seat</Item>
+      <Item Chance="Normal">a gym bag with clothes</Item>
+      <Item Chance="Normal">a grocery tote with snacks</Item>
+      <Item Chance="Normal">a commuter transit pass</Item>
+   </GreenItems>
+
+</VehicleSearchItems>

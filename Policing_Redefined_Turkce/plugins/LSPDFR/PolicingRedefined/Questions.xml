@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomQuestions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestionGroups>
+    <QuestionGroup Name="Sokak - Genel">
+      <Questions>
+        <Question Question="Merhaba, bugün nasıl gidiyor, ne yapıyorsun?">
+          <Answers>
+            <Answer PedMood="Sad">Sadece geçinmeye çalışıyorum memur bey.</Answer>
+            <Answer PedMood="Sad">Uzun bir gündü. Kendi halimdeyim.</Answer>
+            <Answer PedMood="Sad">Kafamı dağıtmak için dışarı çıktım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Ayakta durmaya çalışıyorum işte.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Ağırdan alıyorum. Bugün üstümde bir ağırlık var.</Answer>
+            <Answer PedMood="Nervous">Hiçbir şey. Sadece biraz hava alıyorum.</Answer>
+            <Answer PedMood="Nervous">İyiyim memur bey, yemin ederim bir sorun yok.</Answer>
+            <Answer PedMood="Nervous">Öylece yürüyüş yapıyorum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">İyiyim ben. Sadece biraz başım dönüyor, o kadar.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Her şey yolunda, gayet sakinim.</Answer>
+            <Answer PedMood="Mad">Neden üstüme geliyorsunuz ki?</Answer>
+            <Answer PedMood="Mad">Kendi işime bakıyorum.</Answer>
+            <Answer PedMood="Mad">Dışarıdan ne yapıyor gibi görünüyorum?</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">İyiyim dedim ya, üstüme gelmeyin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Şu an enerjiniz beni çok geriyor.</Answer>
+            <Answer PedMood="Neutral">Mahallede takılıyorum öyle.</Answer>
+            <Answer PedMood="Neutral">Markete doğru gidiyorum.</Answer>
+            <Answer PedMood="Neutral">Bir arkadaşımı bekliyorum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Biraz çakırkeyfim, olduğum yerde duruyorum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Sadece yürüyüşün tadını çıkarıyorum.</Answer>
+            <Answer PedMood="Sovereign">Özgürce seyahat ediyorum. Durdurmanız için yasal bir sebep var mı?</Answer>
+            <Answer PedMood="Sovereign">Sorulara cevap vermiyorum. Gözaltında mıyım?</Answer>
+            <Answer PedMood="Sovereign">Susma hakkımı kullanıyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Bir kadeh içmiş olsam bile ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Bu sorgulama şekline rıza göstermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Üzerinde kimlik belgesi var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Evet, buyurun.</Answer>
+            <Answer PedMood="Sad">Bir saniye... Hah, buldum.</Answer>
+            <Answer PedMood="Sad">Hemen veriyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Durun bir saniye, ceplerimi bulamıyorum.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Buralarda bir yerde olacaktı, bir dakika verin.</Answer>
+            <Answer PedMood="Nervous">Evet var, ama süresi geçtiyse lütfen kızmayın.</Answer>
+            <Answer PedMood="Nervous">Cebimde, bir saniye bekleyin.</Answer>
+            <Answer PedMood="Nervous">Evet memur bey, buyurun.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Evet var, ben çıkarıp vereyim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Buldum... Çok fazla cep var.</Answer>
+            <Answer PedMood="Mad">Ne için? İyi tamam, alın.</Answer>
+            <Answer PedMood="Mad">Alın bakalım, kaybetmeyin.</Answer>
+            <Answer PedMood="Mad">Herhalde yanımda kimlik taşıyorum.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Yanımda, biraz müsaade edin çıkarayım.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Sakin olun, zorluk çıkarmıyorum.</Answer>
+            <Answer PedMood="Neutral">Evet, buyurun.</Answer>
+            <Answer PedMood="Neutral">Ön cebimde, bir saniye.</Answer>
+            <Answer PedMood="Neutral">Tabii, hemen çıkarıyorum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Buyurun, biraz yavaşsam kusura bakmayın.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Hemen uzatıyorum.</Answer>
+            <Answer PedMood="Sovereign">Yasa zorunlu kılıyorsa gösteririm.</Answer>
+            <Answer PedMood="Sovereign">İlgili kanun maddesini söyleyin, kimliğimi vereyim.</Answer>
+            <Answer PedMood="Sovereign">Bu yasal bir emir mi?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Kural aynı, yasal zorunluluğu belirtin.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Hiçbir yasal hakkımdan feragat etmiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bu saatte dışarıda olmanın özel bir sebebi var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Sadece geçinmeye çalışıyorum.</Answer>
+            <Answer PedMood="Sad">Uzun bir gündü, sessizce yürüyorum.</Answer>
+            <Answer PedMood="Sad">Kafamı dağıtmaya çıktım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Kendime gelmeye çalışıyorum.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Ağırdan alıyorum, zor bir gündü.</Answer>
+            <Answer PedMood="Nervous">Yok, sadece biraz temiz hava alıyorum.</Answer>
+            <Answer PedMood="Nervous">Bir sorun yok memur bey, söz veriyorum.</Answer>
+            <Answer PedMood="Nervous">Öylece yürüyordum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">İyiyim, sadece biraz dengem bozuk.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Her şey gayet sakin, bir sıkıntı yok.</Answer>
+            <Answer PedMood="Mad">Neden beni sıkıştırıyorsunuz?</Answer>
+            <Answer PedMood="Mad">Kendi işime bakıyorum.</Answer>
+            <Answer PedMood="Mad">Ne yapıyor gibi görünüyorum?</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">İyiyim dedim, rahat bırakın.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Çok gergin yaklaşıyorsunuz.</Answer>
+            <Answer PedMood="Neutral">Buralarda takılıyorum.</Answer>
+            <Answer PedMood="Neutral">Markete gidiyorum.</Answer>
+            <Answer PedMood="Neutral">Bir arkadaşımı bekliyorum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Biraz içtim, burada bekliyorum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Gece yürüyüşü yapıyorum.</Answer>
+            <Answer PedMood="Sovereign">Özgürce dolaşıyorum. Durdurmanız için yasal bir sebep var mı?</Answer>
+            <Answer PedMood="Sovereign">Sorulara cevap vermiyorum. Gözaltında mıyım?</Answer>
+            <Answer PedMood="Sovereign">Susma hakkımı kullanıyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Bu sorgulamaya rıza göstermiyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Hareket">
+      <Questions>
+        <Question Question="Nereye gidiyorsun?">
+          <Answers>
+            <Answer PedMood="Sad">Eve. Biraz sessizliğe ihtiyacım var.</Answer>
+            <Answer PedMood="Sad">Özel bir yere değil.</Answer>
+            <Answer PedMood="Sad">Sadece kafa dağıtıyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Düşüp bayılmadan önce evdeki koltuğa.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Rüzgar nereye götürürse oraya.</Answer>
+            <Answer PedMood="Nervous">Markete, hemen alıp döneceğim.</Answer>
+            <Answer PedMood="Nervous">Yakında bir arkadaşım oturuyor, oraya.</Answer>
+            <Answer PedMood="Nervous">Daha fazla geç olmadan eve.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Eve gidiyorum, vallahi doğruca eve.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Şey, şu tarafa doğru sanırım.</Answer>
+            <Answer PedMood="Mad">Buradan uzağa.</Answer>
+            <Answer PedMood="Mad">Sizin olmadığınız bir yere.</Answer>
+            <Answer PedMood="Mad">Canım nereye isterse oraya.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Sinirlenmeden önce oturacak bir yere.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Burası dışında herhangi bir yere.</Answer>
+            <Answer PedMood="Neutral">Şehir merkezine.</Answer>
+            <Answer PedMood="Neutral">Otobüs durağına kestirmeden gidiyorum.</Answer>
+            <Answer PedMood="Neutral">Bir şeyler yemeye gidiyorum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yavaş yavaş eve gidiyorum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Parka dinlenmeye gidiyorum.</Answer>
+            <Answer PedMood="Sovereign">Seyahat ediyorum, açıklamak zorunda değilim.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Bu bir emir mi?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam da haklarım geçerli.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Saygılarımla, cevap vermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Nereden geliyorsun?">
+          <Answers>
+            <Answer PedMood="Sad">Ağır bir mesai vardiyasından.</Answer>
+            <Answer PedMood="Sad">Bir arkadaşımın evinden.</Answer>
+            <Answer PedMood="Sad">Biraz sakinleşmeye çalışıyordum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Bardan geliyorum, evet.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Sakin bir mekandan geliyorum.</Answer>
+            <Answer PedMood="Nervous">Marketten, hepsi bu.</Answer>
+            <Answer PedMood="Nervous">Arkadaşımın yanından.</Answer>
+            <Answer PedMood="Nervous">Evden çıktım, hava almam gerekti.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Bir partiden, fazla kaçırmadan çıktım.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Parktan geliyorum sanırım.</Answer>
+            <Answer PedMood="Mad">Arkamdan geliyorum herhalde.</Answer>
+            <Answer PedMood="Mad">Neden beni takip ediyorsunuz?</Answer>
+            <Answer PedMood="Mad">Kendi özel işim, uzatmayın.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Müziği daha iyi olan bir yerden.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Sizin anlamayacağınız bir ortamdan.</Answer>
+            <Answer PedMood="Neutral">İşten geliyorum.</Answer>
+            <Answer PedMood="Neutral">Spor salonundan.</Answer>
+            <Answer PedMood="Neutral">Yemek almaya gitmiştim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Bardan çıktım, geceyi bitirdim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Arkadaşımın evinden, sakin takıldık.</Answer>
+            <Answer PedMood="Sovereign">Açıklamak zorunda değilim.</Answer>
+            <Answer PedMood="Sovereign">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Yasal bir emirse söyleyin.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Şu durumda bile ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermeyi reddediyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Neden yolun ortasında yürüyorsun?">
+          <Answers>
+            <Answer PedMood="Sad">Kaldırım çok kalabalıktı.</Answer>
+            <Answer PedMood="Sad">Biraz boş alana ihtiyacım vardı.</Answer>
+            <Answer PedMood="Sad">Dalgınlığıma gelmiş, düşünemedim.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Birkaç kadehten sonra yola kaymışım.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yavaş yürüyorum, benim hatam.</Answer>
+            <Answer PedMood="Nervous">Kaldırım bitti.</Answer>
+            <Answer PedMood="Nervous">Kalabalığın etrafından dolaşmaya çalışıyordum.</Answer>
+            <Answer PedMood="Nervous">Dikkat etmemişim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Biraz içtim, fark edemedim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Bir an dalıp gitmişim.</Answer>
+            <Answer PedMood="Mad">Arabalar etrafımdan dolaşabilir.</Answer>
+            <Answer PedMood="Mad">Yol boştu.</Answer>
+            <Answer PedMood="Mad">İstediğim yerde yürürüm.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">İyiyim ben, her şeye takılmayın.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Bir şeyim yok, üstüme gelmeyin.</Answer>
+            <Answer PedMood="Neutral">Kaldırım kapalıydı.</Answer>
+            <Answer PedMood="Neutral">Karşıya daha hızlı geçmek için indim.</Answer>
+            <Answer PedMood="Neutral">Bir daha olmaz memur bey.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yavaşça eve gidiyorum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Tamam, kaldırımdan devam ederim.</Answer>
+            <Answer PedMood="Sovereign">Yolculuk yapıyordum. Bu yasal bir durdurma mı?</Answer>
+            <Answer PedMood="Sovereign">Cevap vermemeyi tercih ediyorum.</Answer>
+            <Answer PedMood="Sovereign">Ceza mı keseceksiniz?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Başka cevap vermeyi reddediyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Neden yayaya kırmızı yanarken karşıya geçtin?">
+          <Answers>
+            <Answer PedMood="Sad">Beklemekten yorulmuştum.</Answer>
+            <Answer PedMood="Sad">Işığı görmedim.</Answer>
+            <Answer PedMood="Sad">Kötü bir gündü, acele ettim.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Birkaç kadeh içtim, ışığı yanlış gördüm.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Kafam dağınıktı.</Answer>
+            <Answer PedMood="Nervous">Güvenli olduğunu sanmıştım.</Answer>
+            <Answer PedMood="Nervous">Diğerleri geçmeye başlayınca ben de peşlerinden gittim.</Answer>
+            <Answer PedMood="Nervous">Işık çok hızlı değişti.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">İçtikten sonra tam hesaplayamadım.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Dalgınlığıma geldi, kusura bakmayın.</Answer>
+            <Answer PedMood="Mad">Geçtik işte, ne var bunda?</Answer>
+            <Answer PedMood="Mad">Yol bomboştu.</Answer>
+            <Answer PedMood="Mad">Kimseye tehlike yaratmadım.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">İyiyim ben, büyütmeyin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yol yeterince açıktı.</Answer>
+            <Answer PedMood="Neutral">Bir dahaki sefere beklerim.</Answer>
+            <Answer PedMood="Neutral">Tabelayı yanlış gördüm.</Answer>
+            <Answer PedMood="Neutral">Daha dikkatli olurum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Daha yavaş hareket ederim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Bundan sonra ışığa uyarım.</Answer>
+            <Answer PedMood="Sovereign">Herhangi bir beyanda bulunmuyorum.</Answer>
+            <Answer PedMood="Sovereign">Bu bir uyarı mı yoksa ceza mı?</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Şu an ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Davranış">
+      <Questions>
+        <Question Question="Neden bu kadar gergin davranıyorsun?">
+          <Answers>
+            <Answer PedMood="Sad">Sadece zor bir gün geçiriyorum.</Answer>
+            <Answer PedMood="Sad">Çok stresliyim.</Answer>
+            <Answer PedMood="Sad">Sakin nefes almaya çalışıyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Daha önce birkaç kadeh içtim, pişmanım.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Sadece sakinleşmeye çalışıyorum.</Answer>
+            <Answer PedMood="Nervous">Polis görünce elim ayağım birbirine dolaşıyor.</Answer>
+            <Answer PedMood="Nervous">Kalabalık beni geriyor.</Answer>
+            <Answer PedMood="Nervous">Son günlerde sinirlerim biraz bozuk.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Biraz içtim, kendimi daha kötü hissettim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Daha önce biraz bir şeyler çektim.</Answer>
+            <Answer PedMood="Mad">Beni durdurduğunuz için olabilir mi?</Answer>
+            <Answer PedMood="Mad">Şu durum hiç hoş değil.</Answer>
+            <Answer PedMood="Mad">Köşeye sıkıştırılmaktan hoşlanmıyorum.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Bununla uğraşacak kadar sarhoş değilim.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Kafam güzel falan değil, sadece sinirliyim.</Answer>
+            <Answer PedMood="Neutral">Uzun bir haftaydı, hepsi bu.</Answer>
+            <Answer PedMood="Neutral">Sadece biraz gerginim.</Answer>
+            <Answer PedMood="Neutral">Tamam, sakinleşeceğim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Bir iki kadeh içtim, yavaşlayacağım.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Daha önce bir şeyler içtim ama iyiyim.</Answer>
+            <Answer PedMood="Sovereign">Buna cevap vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Bunun bir suçla ilgisi var mı?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Cevabım aynı, ifade yok.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermeyi reddediyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Ellerini görebileceğim bir yerde tutar mısın?">
+          <Answers>
+            <Answer PedMood="Sad">Tamam, ellerim havada.</Answer>
+            <Answer PedMood="Sad">Tabii, görünür şekilde tutacağım.</Answer>
+            <Answer PedMood="Sad">Sorun değil.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Tamam, sadece dengemi kaybetmeyeyim.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Peki, yavaşça kaldırıyorum.</Answer>
+            <Answer PedMood="Nervous">Evet, görebileceğiniz yerde tutuyorum.</Answer>
+            <Answer PedMood="Nervous">Tamam, kıpırdamıyorum.</Answer>
+            <Answer PedMood="Nervous">Anlaşıldı, ellerim burada.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Tamam, bana ne yapacağımı söyleyin yeter.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yapabilirim, lütfen sakin olun.</Answer>
+            <Answer PedMood="Mad">İyi tamam, sakin olun.</Answer>
+            <Answer PedMood="Mad">İşte burada, mutlu oldunuz mu?</Answer>
+            <Answer PedMood="Mad">Ellerim tam burada işte.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Ellerim ortada, sorun çıkarma niyetim yok.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Rahat olun, bir şeye uzandığım yok.</Answer>
+            <Answer PedMood="Neutral">Tabii, sorun yok.</Answer>
+            <Answer PedMood="Neutral">Ellerim görünürde.</Answer>
+            <Answer PedMood="Neutral">Sabit duracağım.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Pekala, sabit duruyorum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Tamam, yavaş ve sakin.</Answer>
+            <Answer PedMood="Sovereign">Yasal bir emre uyarım.</Answer>
+            <Answer PedMood="Sovereign">Ne gerektiğini söyleyin, uyacağım.</Answer>
+            <Answer PedMood="Sovereign">İşbirliği yapıyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile emre uyacağım.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Haklarımdan feragat etmeden uyuyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Neden uzaklaşmaya çalıştın?">
+          <Answers>
+            <Answer PedMood="Sad">Biraz yalnız kalmaya ihtiyacım vardı.</Answer>
+            <Answer PedMood="Sad">Sadece gitmek istedim.</Answer>
+            <Answer PedMood="Sad">Çok bunaldım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Oturacak bir yer arıyordum.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Dalgınlıkla yürümüşüm, kusura bakmayın.</Answer>
+            <Answer PedMood="Nervous">Korktum.</Answer>
+            <Answer PedMood="Nervous">Gidebileceğimi sanmıştım.</Answer>
+            <Answer PedMood="Nervous">Başım belaya girsin istemedim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">İçkili olduğum için panik yaptım.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Kafam dağınıktı, fark etmedim.</Answer>
+            <Answer PedMood="Mad">Beni sürekli sıkıştırıp durdunuz.</Answer>
+            <Answer PedMood="Mad">Burada dikilmek zorunda değilim.</Answer>
+            <Answer PedMood="Mad">Aramıza mesafe koymak istedim.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Bu konuşmadan sıkıldım.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Ortamı değiştirmem gerekti.</Answer>
+            <Answer PedMood="Neutral">İşimizin bittiğini sanmıştım.</Answer>
+            <Answer PedMood="Neutral">Dur dediğinizi duymadım.</Answer>
+            <Answer PedMood="Neutral">Tamam, şimdi burada bekliyorum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Olduğum yerde kalacağım, bir yere gitmiyorum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Sabit duracağım.</Answer>
+            <Answer PedMood="Sovereign">Ayrılmakta özgür olduğumu düşünüyordum.</Answer>
+            <Answer PedMood="Sovereign">Seyahat hakkımı kullanıyordum.</Answer>
+            <Answer PedMood="Sovereign">Kalmam yönünde yasal bir emir almadım.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Öyle olsa bile gidebileceğimi düşündüm.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Daha fazla cevap vermeyi reddediyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Talimatlarımı anlıyor musun?">
+          <Answers>
+            <Answer PedMood="Sad">Evet, anlıyorum.</Answer>
+            <Answer PedMood="Sad">Anladım.</Answer>
+            <Answer PedMood="Sad">Talimatlarınıza uyacağım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Evet, biraz yavaşsam kusura bakmayın.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Anlıyorum, sakinim.</Answer>
+            <Answer PedMood="Nervous">Evet, anlıyorum.</Answer>
+            <Answer PedMood="Nervous">Sanırım anladım.</Answer>
+            <Answer PedMood="Nervous">Son kısmı tekrar edebilir misiniz?</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Anlıyorum, lütfen sakin anlatın.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Anlıyorum, odaklandım.</Answer>
+            <Answer PedMood="Mad">Evet, duyduk.</Answer>
+            <Answer PedMood="Mad">Anladık işte.</Answer>
+            <Answer PedMood="Mad">Uyacağız dedik ya.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Biraz içmiş olsam da anlıyorum.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Anladım, tekrar edip durmayın.</Answer>
+            <Answer PedMood="Neutral">Evet, anlaşıldı.</Answer>
+            <Answer PedMood="Neutral">Uyacağım.</Answer>
+            <Answer PedMood="Neutral">Gayet net.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Anlaşıldı, yavaş hareket edeceğim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Anlaşıldı, sakinim.</Answer>
+            <Answer PedMood="Sovereign">Yasal emirlere uyacağım.</Answer>
+            <Answer PedMood="Sovereign">Yasal bir emirse anlıyorum.</Answer>
+            <Answer PedMood="Sovereign">İtiraz hakkımı saklı tutarak anlıyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile yasal emre uyarım.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Haklarımdan feragat etmeden anlıyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Alkol ve Madde">
+      <Questions>
+        <Question Question="Bugün alkol aldın mı?">
+          <Answers>
+            <Answer PedMood="Sad">Hayır, sadece yorgunum.</Answer>
+            <Answer PedMood="Sad">Bugün içmedim.</Answer>
+            <Answer PedMood="Sad">Ayığım ben.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Evet, birkaç kadeh içtim.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Alkol yok, sadece sakin kalmaya çalışıyorum.</Answer>
+            <Answer PedMood="Nervous">Daha önce bir kadeh içmiştim.</Answer>
+            <Answer PedMood="Nervous">Akşam yemeğinde bir kadeh içtim.</Answer>
+            <Answer PedMood="Nervous">Yakın zamanda bir şey içmedim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Bu halde dışarı çıkmamalıydım, benim hatam.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Hayır, alkol almadım.</Answer>
+            <Answer PedMood="Mad">İyiyim ben.</Answer>
+            <Answer PedMood="Mad">Hayır.</Answer>
+            <Answer PedMood="Mad">Neden tekrar soruyorsunuz?</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Belki biraz içmişimdir, ne olmuş?</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Alkol almadım.</Answer>
+            <Answer PedMood="Neutral">Hayır, içmedim.</Answer>
+            <Answer PedMood="Neutral">Bugün hiç içmedim.</Answer>
+            <Answer PedMood="Neutral">Tamamen ayığım.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Evet, biraz içtim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Alkol yok, temizim.</Answer>
+            <Answer PedMood="Sovereign">Bu soruya cevap vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermek zorunda mıyım?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermeyi reddediyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Yakın zamanda uyuşturucu veya ilaç kullandın mı?">
+          <Answers>
+            <Answer PedMood="Sad">Sadece doktorun yazdığı ilaçları.</Answer>
+            <Answer PedMood="Sad">Yasadışı hiçbir şey kullanmadım.</Answer>
+            <Answer PedMood="Sad">Keyif verici madde kullanmıyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Hayır, sadece içki içtim.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Evet, biraz bir şeyler içtim.</Answer>
+            <Answer PedMood="Nervous">Daha önce ağrı kesici almıştım.</Answer>
+            <Answer PedMood="Nervous">Kendi ilaçlarımı aldım.</Answer>
+            <Answer PedMood="Nervous">Başka bir şey kullanmadım.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Uyuşturucu yok, sadece biraz alkollüyüm.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Evet, biraz ot içtim.</Answer>
+            <Answer PedMood="Mad">Bu sizi ilgilendirmez.</Answer>
+            <Answer PedMood="Mad">Hayır.</Answer>
+            <Answer PedMood="Mad">Ağzımı aramayı bırakın.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Sadece alkol aldım.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Evet kullandım, ne olmuş?</Answer>
+            <Answer PedMood="Neutral">Uyuşturucu yok, yalnızca reçeteli ilaçlarım.</Answer>
+            <Answer PedMood="Neutral">İlaçlarım dışında hiçbir şey.</Answer>
+            <Answer PedMood="Neutral">Tamamı yasal.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Uyuşturucu yok, içki içtim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Daha önce içtim ama şu an sakinim.</Answer>
+            <Answer PedMood="Sovereign">Maddeler hakkında ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Bu yasal bir soru mu?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Buna cevap vermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Üzerinde yasadışı bir şey var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Hayır, temizim.</Answer>
+            <Answer PedMood="Sad">Yasadışı hiçbir şey yok.</Answer>
+            <Answer PedMood="Sad">İsterseniz bakabilirsiniz.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Yok, sadece ben varım.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Hayır, sadece atıştırmalık var.</Answer>
+            <Answer PedMood="Nervous">Silah falan yok.</Answer>
+            <Answer PedMood="Nervous">Yasadışı hiçbir şey yok.</Answer>
+            <Answer PedMood="Nervous">Sadece günlük eşyalarım.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Hayır, kesici bir şey de yok.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yasadışı bir eşya yok.</Answer>
+            <Answer PedMood="Mad">Hayır, laf aramayı bırakın.</Answer>
+            <Answer PedMood="Mad">Temizim, konu kapandı.</Answer>
+            <Answer PedMood="Mad">Sizi ilgilendiren bir şey yok.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Burada dolu olan tek şey benim kafam. Şaka yapıyorum.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yok bir şey, sakin olun.</Answer>
+            <Answer PedMood="Neutral">Yasadışı hiçbir şey yok.</Answer>
+            <Answer PedMood="Neutral">Silah yok.</Answer>
+            <Answer PedMood="Neutral">Sadece kişisel eşyalarım var.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Olumsuz, güvendesiniz memur bey.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Hayır, yasadışı bir şey taşımıyorum.</Answer>
+            <Answer PedMood="Sovereign">Sorgulamaya rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Haklı sebep olmadan ifade vermem.</Answer>
+            <Answer PedMood="Sovereign">Makul şüpheniz var mı?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Yine de rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Rızam yoktur.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Ceplerini kontrol etmemin bir sakıncası var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Mecbur diyorsanız buyurun.</Answer>
+            <Answer PedMood="Sad">Tamam, lütfen nazik olun.</Answer>
+            <Answer PedMood="Sad">Peki, yeter ki olay çıkmasın.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Tamam, sadece bir şey düşürmeyin.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Tamam, lütfen yavaş hareket edin.</Answer>
+            <Answer PedMood="Nervous">Zorunluysa tabii.</Answer>
+            <Answer PedMood="Nervous">Tamam ama biraz tedirginim.</Answer>
+            <Answer PedMood="Nervous">Peki, lütfen hızlı olsun.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Tamam, ne yaptığınızı söyleyerek arayın.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Tamam ama bu durum beni çok geriyor.</Answer>
+            <Answer PedMood="Mad">Hayır, aramaya rıza göstermiyorum.</Answer>
+            <Answer PedMood="Mad">Geçerli bir sebep olmadan olmaz.</Answer>
+            <Answer PedMood="Mad">Kesinlikle hayır.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Geri çekilin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Hayır, bana dokunmayın.</Answer>
+            <Answer PedMood="Neutral">Güvenlik içinse buyurun.</Answer>
+            <Answer PedMood="Neutral">Tamam, hızlıca bakabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Tabii, ellerim görünürde.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Olur, sallanırsam tutarsınız.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Pekala, ani hareket olmasın lütfen.</Answer>
+            <Answer PedMood="Sovereign">Üst aramasına rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Makul şüphe olmadan reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Bunu kabul etmiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Şu durumda bile reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Sebep yoksa cevabım hala hayır.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Arama İzni">
+      <Questions>
+        <Question Question="Hızlı bir üst aramasına izin veriyor musun?">
+          <Answers>
+            <Answer PedMood="Sad">Mecbur diyorsanız buyurun.</Answer>
+            <Answer PedMood="Sad">Tamam, lütfen nazik olun.</Answer>
+            <Answer PedMood="Sad">Peki, yeter ki olay çıkmasın.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Tamam, sadece bir şey düşürmeyin.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Tamam, lütfen yavaş hareket edin.</Answer>
+            <Answer PedMood="Nervous">Zorunluysa tabii.</Answer>
+            <Answer PedMood="Nervous">Tamam ama biraz tedirginim.</Answer>
+            <Answer PedMood="Nervous">Peki, lütfen hızlı olsun.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Tamam, ne yaptığınızı söyleyerek arayın.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Tamam ama bu durum beni çok geriyor.</Answer>
+            <Answer PedMood="Mad">Hayır, aramaya rıza göstermiyorum.</Answer>
+            <Answer PedMood="Mad">Geçerli bir sebep olmadan olmaz.</Answer>
+            <Answer PedMood="Mad">Kesinlikle hayır.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Geri çekilin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Hayır, bana dokunmayın.</Answer>
+            <Answer PedMood="Neutral">Güvenlik içinse buyurun.</Answer>
+            <Answer PedMood="Neutral">Tamam, hızlıca bakabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Tabii, ellerim görünürde.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Olur, sallanırsam tutarsınız.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Pekala, ani hareket olmasın lütfen.</Answer>
+            <Answer PedMood="Sovereign">Üst aramasına rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Makul şüphe olmadan reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Bunu kabul etmiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Şu durumda bile reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Sebep yoksa cevabım hala hayır.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Çantanın içine bakmama izin veriyor musun?">
+          <Answers>
+            <Answer PedMood="Sad">Bakmamanızı tercih ederim.</Answer>
+            <Answer PedMood="Sad">Zorundaysanız tamam.</Answer>
+            <Answer PedMood="Sad">İçindekileri yere dökmeyin lütfen.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">İyi, dikkatli bakın ama biraz kötüyüm.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Tamam, lütfen yavaş hareket edin.</Answer>
+            <Answer PedMood="Nervous">Gerekliyse tabii.</Answer>
+            <Answer PedMood="Nervous">Tamam ama bu beni geriyor.</Answer>
+            <Answer PedMood="Nervous">Lütfen çabuk olun.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Peki, sadece ne yaptığınızı söyleyin.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Tamam, sakinim.</Answer>
+            <Answer PedMood="Mad">Hayır, o benim özel eşyam.</Answer>
+            <Answer PedMood="Mad">Sebep olmadan bakamazsınız.</Answer>
+            <Answer PedMood="Mad">İzin vermiyorum.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Hayır, geri durun.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Cevabım hala hayır.</Answer>
+            <Answer PedMood="Neutral">Yardımcı olacaksa tamam.</Answer>
+            <Answer PedMood="Neutral">İznimle bakabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Sadece dağıtmayın lütfen.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Tamam, biraz yavaş olabilirim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Pekala, bakabilirsiniz.</Answer>
+            <Answer PedMood="Sovereign">Aramaya rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Makul şüphe olmadan reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Rızam yoktur.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Şu an bile rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Sakin olsam da rızam yok.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Üstünü aramadan önce kesici veya delici bir şey var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Kesici bir şey yok.</Answer>
+            <Answer PedMood="Sad">Elinize batacak hiçbir şey yok.</Answer>
+            <Answer PedMood="Sad">Sadece normal eşyalar var.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Hayır, belki bir iki şişe kapağı vardır.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Kesici hiçbir şey yok, söz veriyorum.</Answer>
+            <Answer PedMood="Nervous">Bıçak falan yok.</Answer>
+            <Answer PedMood="Nervous">Kesici bir şey yok.</Answer>
+            <Answer PedMood="Nervous">Sadece çakmak ve anahtarlarım var.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Yok, lütfen yavaş arayın.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Kesici bir şey yok, kontrol etmiştim.</Answer>
+            <Answer PedMood="Mad">Yok, yine de dikkatli olun.</Answer>
+            <Answer PedMood="Mad">Yok dedim ya.</Answer>
+            <Answer PedMood="Mad">Elinizi kesecek bir şey yok.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Kesici şey yok, ellerinize dikkat edin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yok, sakin olun.</Answer>
+            <Answer PedMood="Neutral">Kesici veya delici bir eşya yok.</Answer>
+            <Answer PedMood="Neutral">Rahat olabilirsiniz, yok.</Answer>
+            <Answer PedMood="Neutral">Sadece normal eşyalar.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Hayır, sabit duracağım.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">İçeride kesici bir şey yok.</Answer>
+            <Answer PedMood="Sovereign">Beyanda bulunmuyorum.</Answer>
+            <Answer PedMood="Sovereign">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Şu an ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Eşyalarını benim için yere bırakır mısın?">
+          <Answers>
+            <Answer PedMood="Sad">Tamam, yere bırakıyorum.</Answer>
+            <Answer PedMood="Sad">Tabii, lütfen kaybolmasınlar.</Answer>
+            <Answer PedMood="Sad">Şuraya koyuyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Tamam, düşürmemeye çalışacağım.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Pekala, yavaşça bırakıyorum.</Answer>
+            <Answer PedMood="Nervous">Tamam, yere koyacağım.</Answer>
+            <Answer PedMood="Nervous">Evet, eşyaları yere bırakıyorum.</Answer>
+            <Answer PedMood="Nervous">Ayaklarımın dibine koyacağım.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Koyacağım, bana adım adım söyleyin.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Yapabilirim, sakinim.</Answer>
+            <Answer PedMood="Mad">İyi, bıraktık işte.</Answer>
+            <Answer PedMood="Mad">İstediğiniz oldu mu?</Answer>
+            <Answer PedMood="Mad">Şimdi mutlu musunuz?</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Yapacağım, biraz geri çekilin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Bırakıyorum işte, acele ettirmeyin.</Answer>
+            <Answer PedMood="Neutral">Tabii, yere bırakıyorum.</Answer>
+            <Answer PedMood="Neutral">Sorun değil.</Answer>
+            <Answer PedMood="Neutral">Tamamdır, bıraktım.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yavaşça bırakacağım.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Tamamdır, eşyalar yerde.</Answer>
+            <Answer PedMood="Sovereign">Yasal bir emirse uyacağım.</Answer>
+            <Answer PedMood="Sovereign">İtiraz şerhiyle uyuyorum.</Answer>
+            <Answer PedMood="Sovereign">Bunu yapacağım.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile emre uyacağım.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Haklarımdan feragat etmeden uyuyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Kimlik ve Kayıt">
+      <Questions>
+        <Question Question="Tam adın ve soyadın nedir?">
+          <Answers>
+            <Answer PedMood="Sad">Kimliğimi gösterebilirim.</Answer>
+            <Answer PedMood="Sad">Kimlik kartımdan bakabilirsiniz.</Answer>
+            <Answer PedMood="Sad">Yasal kimlik talebine uyarım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Biraz içmiş olsam da yasal olarak zorunluysa kimliğimi veririm.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Her şeyi kimliğimden doğrulayabilirsiniz.</Answer>
+            <Answer PedMood="Nervous">Kimliğimi gösterebilirim.</Answer>
+            <Answer PedMood="Nervous">Kimlik kartımdan bakabilirsiniz.</Answer>
+            <Answer PedMood="Nervous">Yasal kimlik talebine uyarım.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Biraz içmiş olsam da yasal olarak zorunluysa kimliğimi veririm.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Her şeyi kimliğimden doğrulayabilirsiniz.</Answer>
+            <Answer PedMood="Mad">Kimliğimi gösterebilirim.</Answer>
+            <Answer PedMood="Mad">Kimlik kartımdan bakabilirsiniz.</Answer>
+            <Answer PedMood="Mad">Yasal kimlik talebine uyarım.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Biraz içmiş olsam da yasal olarak zorunluysa kimliğimi veririm.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Her şeyi kimliğimden doğrulayabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Kimliğimi gösterebilirim.</Answer>
+            <Answer PedMood="Neutral">Kimlik kartımdan bakabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Yasal kimlik talebine uyarım.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Biraz içmiş olsam da yasal olarak zorunluysa kimliğimi veririm.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Her şeyi kimliğimden doğrulayabilirsiniz.</Answer>
+            <Answer PedMood="Sovereign">Kimliğimi gösterebilirim.</Answer>
+            <Answer PedMood="Sovereign">Kimlik kartımdan bakabilirsiniz.</Answer>
+            <Answer PedMood="Sovereign">Yasal kimlik talebine uyarım.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Biraz içmiş olsam da yasal olarak zorunluysa kimliğimi veririm.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Her şeyi kimliğimden doğrulayabilirsiniz.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Doğum tarihin nedir?">
+          <Answers>
+            <Answer PedMood="Sad">Doğum tarihim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Sad">Bunun için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Sad">Kanunen zorunluysa paylaşırım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Sesim biraz sarhoş gibi çıksa da kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Kimliğimde yazıyor, oradan okuyabilirsiniz.</Answer>
+            <Answer PedMood="Nervous">Doğum tarihim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Nervous">Bunun için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Nervous">Kanunen zorunluysa paylaşırım.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Sesim biraz sarhoş gibi çıksa da kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Kimliğimde yazıyor, oradan okuyabilirsiniz.</Answer>
+            <Answer PedMood="Mad">Doğum tarihim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Mad">Bunun için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Mad">Kanunen zorunluysa paylaşırım.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Sesim biraz sarhoş gibi çıksa da kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Kimliğimde yazıyor, oradan okuyabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Doğum tarihim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Neutral">Bunun için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Kanunen zorunluysa paylaşırım.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Sesim biraz sarhoş gibi çıksa da kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Kimliğimde yazıyor, oradan okuyabilirsiniz.</Answer>
+            <Answer PedMood="Sovereign">Doğum tarihim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Sovereign">Bunun için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Sovereign">Kanunen zorunluysa paylaşırım.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Sesim biraz sarhoş gibi çıksa da kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Kimliğimde yazıyor, oradan okuyabilirsiniz.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Nerede ikamet ediyorsun?">
+          <Answers>
+            <Answer PedMood="Sad">Adresim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Sad">Adresim için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Sad">Gerekirse belgelerimi gösterebilirim.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Kimliğimde yazan adresle aynı.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Adresim kimlik kartımda basılı.</Answer>
+            <Answer PedMood="Nervous">Adresim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Nervous">Adresim için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Nervous">Gerekirse belgelerimi gösterebilirim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Kimliğimde yazan adresle aynı.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Adresim kimlik kartımda basılı.</Answer>
+            <Answer PedMood="Mad">Adresim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Mad">Adresim için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Mad">Gerekirse belgelerimi gösterebilirim.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Kimliğimde yazan adresle aynı.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Adresim kimlik kartımda basılı.</Answer>
+            <Answer PedMood="Neutral">Adresim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Neutral">Adresim için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Neutral">Gerekirse belgelerimi gösterebilirim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Kimliğimde yazan adresle aynı.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Adresim kimlik kartımda basılı.</Answer>
+            <Answer PedMood="Sovereign">Adresim kimliğimde yazıyor.</Answer>
+            <Answer PedMood="Sovereign">Adresim için kimliğime bakabilirsiniz.</Answer>
+            <Answer PedMood="Sovereign">Gerekirse belgelerimi gösterebilirim.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Kimliğimde yazan adresle aynı.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Adresim kimlik kartımda basılı.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bildiğin bir aranma kaydın var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Bildiğim kadarıyla yok.</Answer>
+            <Answer PedMood="Sad">Sanmıyorum.</Answer>
+            <Answer PedMood="Sad">Bana öyle bir şey tebliğ edilmedi.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Biraz sarhoş olsam da bildiğim kadarıyla yok.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Bildiğim kadarıyla yok, kontrol edebilirsiniz.</Answer>
+            <Answer PedMood="Nervous">Sanmıyorum.</Answer>
+            <Answer PedMood="Nervous">Umarım yoktur.</Answer>
+            <Answer PedMood="Nervous">Hiçbir fikrim yok.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Sanmam, olsa haberim olurdu.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Bilmiyorum, gerekirse sorgulayın.</Answer>
+            <Answer PedMood="Mad">Hayır.</Answer>
+            <Answer PedMood="Mad">Niye olsun ki?</Answer>
+            <Answer PedMood="Mad">Siz söyleyin.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Hayır, içmiş olsam bile yok.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Hayır, sorgunuzu yapın.</Answer>
+            <Answer PedMood="Neutral">Bildiğim kadarıyla yok.</Answer>
+            <Answer PedMood="Neutral">Olduğunu sanmıyorum.</Answer>
+            <Answer PedMood="Neutral">Bilgilerimi sorgulayabilirsiniz.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Şu an bile bildiğim kadarıyla yok.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Sanmıyorum, buyurun kontrol edin.</Answer>
+            <Answer PedMood="Sovereign">Bu konuda beyanda bulunmayacağım.</Answer>
+            <Answer PedMood="Sovereign">Aranma emri nedeniyle mi tutuluyorum?</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Cevabım aynı, ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Eşya Sahipliği">
+      <Questions>
+        <Question Question="Bu çanta senin mi?">
+          <Answers>
+            <Answer PedMood="Sad">Evet, benim çantam.</Answer>
+            <Answer PedMood="Sad">Bana ait.</Answer>
+            <Answer PedMood="Sad">Yanımda taşıyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Evet, lütfen dikkatli tutun.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Evet, lütfen yavaşça kontrol edin.</Answer>
+            <Answer PedMood="Nervous">Evet, benim.</Answer>
+            <Answer PedMood="Nervous">Öyle olması lazım.</Answer>
+            <Answer PedMood="Nervous">Evet, benim çantam.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Evet, lütfen dikkatli olun.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Evet, çıkarken ben hazırladım.</Answer>
+            <Answer PedMood="Mad">Evet, ne olmuş?</Answer>
+            <Answer PedMood="Mad">Benim, geri çekilin.</Answer>
+            <Answer PedMood="Mad">Dokunmayın ona.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Benim, elinizi çekin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Evet, rahat bırakın.</Answer>
+            <Answer PedMood="Neutral">Evet, benim çantam.</Answer>
+            <Answer PedMood="Neutral">Bana ait.</Answer>
+            <Answer PedMood="Neutral">Evden yanımda getirdim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Evet, sıkıca tutuyorum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Evet, gerekirse açabilirim.</Answer>
+            <Answer PedMood="Sovereign">Aramaya rıza göstermeyeceğim.</Answer>
+            <Answer PedMood="Sovereign">Bana ait olması arama izni verdiğim anlamına gelmez.</Answer>
+            <Answer PedMood="Sovereign">Benimdir, bunun ötesinde ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile arama izni vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Sakin olsam da rıza göstermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bu bisiklet senin mi?">
+          <Answers>
+            <Answer PedMood="Sad">Evet, benim bisikletim.</Answer>
+            <Answer PedMood="Sad">Bana ait.</Answer>
+            <Answer PedMood="Sad">Kendi bisikletim.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Evet, lütfen dikkatli tutun.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Evet, bana ait.</Answer>
+            <Answer PedMood="Nervous">Evet, benim.</Answer>
+            <Answer PedMood="Nervous">Evet memur bey.</Answer>
+            <Answer PedMood="Nervous">Benim bisikletim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Evet, lütfen dikkatli olun.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Evet, evden bununla çıktım.</Answer>
+            <Answer PedMood="Mad">Evet, ne olmuş?</Answer>
+            <Answer PedMood="Mad">Benim, geri çekilin.</Answer>
+            <Answer PedMood="Mad">Dokunmayın ona.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Benim, elinizi çekin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Evet, rahat bırakın.</Answer>
+            <Answer PedMood="Neutral">Evet, benim bisikletim.</Answer>
+            <Answer PedMood="Neutral">Bana ait.</Answer>
+            <Answer PedMood="Neutral">Evden getirdim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Evet, benim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Evet, bana ait.</Answer>
+            <Answer PedMood="Sovereign">Aramaya rıza göstermeyeceğim.</Answer>
+            <Answer PedMood="Sovereign">Bana ait olması arama izni verdiğim anlamına gelmez.</Answer>
+            <Answer PedMood="Sovereign">Benimdir, bunun ötesinde ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile arama izni vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Sakin olsam da rıza göstermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bu telefon kime ait?">
+          <Answers>
+            <Answer PedMood="Sad">Benim telefonum.</Answer>
+            <Answer PedMood="Sad">Bana ait.</Answer>
+            <Answer PedMood="Sad">Yanımda taşıyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Benim, lütfen dikkatli tutun.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Benim, lütfen yavaşça verin.</Answer>
+            <Answer PedMood="Nervous">Benim telefonum.</Answer>
+            <Answer PedMood="Nervous">Bana ait memur bey.</Answer>
+            <Answer PedMood="Nervous">Kendi telefonum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Benim, lütfen düşürmeyin.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Benim, evden çıkarken aldım.</Answer>
+            <Answer PedMood="Mad">Benim, ne olmuş?</Answer>
+            <Answer PedMood="Mad">Bana ait, geri çekilin.</Answer>
+            <Answer PedMood="Mad">Dokunmayın telefonuma.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Benim, elinizi çekin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Benim, rahat bırakın.</Answer>
+            <Answer PedMood="Neutral">Benim telefonum.</Answer>
+            <Answer PedMood="Neutral">Bana ait.</Answer>
+            <Answer PedMood="Neutral">Kendi kişisel telefonum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Benim telefonum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Bana ait.</Answer>
+            <Answer PedMood="Sovereign">Telefonumun incelenmesine rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Bana ait olması inceleme izni verdiğim anlamına gelmez.</Answer>
+            <Answer PedMood="Sovereign">Benimdir, bunun ötesinde ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile arama izni vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Sakin olsam da rıza göstermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bu anahtarlar senin mi?">
+          <Answers>
+            <Answer PedMood="Sad">Evet, benim anahtarlarım.</Answer>
+            <Answer PedMood="Sad">Bana ait.</Answer>
+            <Answer PedMood="Sad">Yanımda taşıyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Evet, lütfen kaybetmeyin.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Evet, bana ait.</Answer>
+            <Answer PedMood="Nervous">Evet, benim.</Answer>
+            <Answer PedMood="Nervous">Evet memur bey.</Answer>
+            <Answer PedMood="Nervous">Benim anahtarlarım.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Evet, lütfen dikkatli olun.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Evet, çıkarken yanıma aldım.</Answer>
+            <Answer PedMood="Mad">Evet, ne olmuş?</Answer>
+            <Answer PedMood="Mad">Benim, geri çekilin.</Answer>
+            <Answer PedMood="Mad">Dokunmayın onlara.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Benim, elinizi çekin.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Evet, rahat bırakın.</Answer>
+            <Answer PedMood="Neutral">Evet, benim anahtarlarım.</Answer>
+            <Answer PedMood="Neutral">Bana ait.</Answer>
+            <Answer PedMood="Neutral">Evden yanımda getirdim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Evet, benim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Evet, bana ait.</Answer>
+            <Answer PedMood="Sovereign">Aramaya rıza göstermeyeceğim.</Answer>
+            <Answer PedMood="Sovereign">Bana ait olması arama izni verdiğim anlamına gelmez.</Answer>
+            <Answer PedMood="Sovereign">Benimdir, bunun ötesinde ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İçmiş olsam bile arama izni vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Sakin olsam da rıza göstermiyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Olay Yeri">
+      <Questions>
+        <Question Question="Şurada ne olduğunu gördün mü?">
+          <Answers>
+            <Answer PedMood="Sad">Bağrışmalar duydum.</Answer>
+            <Answer PedMood="Sad">Koşuşan insanlar gördüm.</Answer>
+            <Answer PedMood="Sad">Uzak durdum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Işıkları gördüm ama geride durdum.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Gürültü duydum, sakin kalmaya çalıştım.</Answer>
+            <Answer PedMood="Nervous">Bir arbede gördüm.</Answer>
+            <Answer PedMood="Nervous">Biri bağırıp kaçtı.</Answer>
+            <Answer PedMood="Nervous">Bir aracın lastik yakarak uzaklaştığını duydum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Biraz içkiliydim, gördüm ama detaylar bulanık.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Bir şeyler gördüm ama dalgındım.</Answer>
+            <Answer PedMood="Mad">Beni ilgilendirmez.</Answer>
+            <Answer PedMood="Mad">Yeterince görmedim.</Answer>
+            <Answer PedMood="Mad">Belaya bulaşmak istemiyorum.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Gürültüyü duyunca yürüyüp geçtim.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Oraya odaklanmadım.</Answer>
+            <Answer PedMood="Neutral">Tartışma gibi görünüyordu.</Answer>
+            <Answer PedMood="Neutral">İki kişi birbirini itekliyordu.</Answer>
+            <Answer PedMood="Neutral">Bir araba hızla uzaklaştı.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Bardan yüksek müzik ve bağrışma sesleri geldi.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Duman kokusu aldım ama nereden geldiğini bilmiyorum.</Answer>
+            <Answer PedMood="Sovereign">Tanık olmak zorunda mıyım?</Answer>
+            <Answer PedMood="Sovereign">İfade vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Herhangi bir beyanda bulunmuyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Alkollüyken ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Tanık olmayı reddediyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Hangi yöne gittiler?">
+          <Answers>
+            <Answer PedMood="Sad">Buradan uzaklaştılar.</Answer>
+            <Answer PedMood="Sad">Takip etmedim.</Answer>
+            <Answer PedMood="Sad">Sakin kalmaya odaklanmıştım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Şu tarafa gittiler ama dengem bozuktu.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Nefes almaya çalışırken izlerini kaybettim.</Answer>
+            <Answer PedMood="Nervous">Sanırım doğu yönüne.</Answer>
+            <Answer PedMood="Nervous">Belki parka doğru gitmişlerdir.</Answer>
+            <Answer PedMood="Nervous">Emin değilim, çok hızlı oldu.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">İçkiliydim, başımı çevirdim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Dalgındım, kusura bakmayın.</Answer>
+            <Answer PedMood="Mad">Onları takip etmek benim işim değil.</Answer>
+            <Answer PedMood="Mad">İzlemek umurumda bile olmadı.</Answer>
+            <Answer PedMood="Mad">Çekip gittiler, hepsi bu.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Takip etmedim, muhbir değilim ben.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Hiç dikkat etmedim.</Answer>
+            <Answer PedMood="Neutral">Sokağın aşağısına doğru gittiler gibi.</Answer>
+            <Answer PedMood="Neutral">Ana caddeye doğru.</Answer>
+            <Answer PedMood="Neutral">Köşeyi döndüler.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Sokağın aşağısına, gerekirse elimle gösterebilirim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Köşeyi döndüler sanırım.</Answer>
+            <Answer PedMood="Sovereign">Buna cevap vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Tanık değilim.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Olayda kaç kişi vardı?">
+          <Answers>
+            <Answer PedMood="Sad">Birkaç kişiydi.</Answer>
+            <Answer PedMood="Sad">Belki iki veya üç kişi.</Answer>
+            <Answer PedMood="Sad">Saymadım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Birkaç kadehten sonra söylemesi zor.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Bir grup gibiydi ama emin değilim.</Answer>
+            <Answer PedMood="Nervous">İki, belki üç kişi.</Answer>
+            <Answer PedMood="Nervous">Üç ya da dört kişi.</Answer>
+            <Answer PedMood="Nervous">Çok hızlı gelişti.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Emin değilim, biraz sarsılmıştım.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Dalgındım, emin değilim.</Answer>
+            <Answer PedMood="Mad">Sorun çıkaracak kadar kişi vardı.</Answer>
+            <Answer PedMood="Mad">Saymadım.</Answer>
+            <Answer PedMood="Mad">Ne fark eder ki?</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Saymadım, yoluma devam ettim.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Hiç saymadım.</Answer>
+            <Answer PedMood="Neutral">İki kişi.</Answer>
+            <Answer PedMood="Neutral">Üç kişi.</Answer>
+            <Answer PedMood="Neutral">Küçük bir gruptu.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Söylemesi zor ama tahminimce üç kişi.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Küçük bir grup, belki dört kişi.</Answer>
+            <Answer PedMood="Sovereign">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Buna cevap vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İfade yok.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Herhangi bir tehdit veya silah sesi duydun mu?">
+          <Answers>
+            <Answer PedMood="Sad">Bağrışmalar duydum.</Answer>
+            <Answer PedMood="Sad">Birinin küfrettiğini duydum.</Answer>
+            <Answer PedMood="Sad">Bir şeyin kırıldığını duydum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Birkaç kadehten sonra gürültüler duydum.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yüksek sesler duydum, geri çekildim.</Answer>
+            <Answer PedMood="Nervous">Bağırma sesleri duydum.</Answer>
+            <Answer PedMood="Nervous">Hararetli bir kavgaya benziyordu.</Answer>
+            <Answer PedMood="Nervous">Birinin çekil diye bağırdığını duydum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Duydum ama korkudan ne olduğunu anlamadım.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Uzaktan duydum, dalgındım.</Answer>
+            <Answer PedMood="Mad">Böyle şeylere kulak asmıyorum.</Answer>
+            <Answer PedMood="Mad">Gürültü duydum ama umurumda olmadı.</Answer>
+            <Answer PedMood="Mad">Benim meselem değil.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Ses duydum ve yürümeye devam ettim.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Onlara odaklanmadım.</Answer>
+            <Answer PedMood="Neutral">Bir tartışma duydum.</Answer>
+            <Answer PedMood="Neutral">Tehdit savurduklarını duydum galiba.</Answer>
+            <Answer PedMood="Neutral">Şişe kırılma sesi duydum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Yüksek müzik ve bağrışma duydum.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Lastik patinaj sesi duydum.</Answer>
+            <Answer PedMood="Sovereign">Tanık değilim.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Verecek bir ifadem yok.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Şu an ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Sağlık Durumu">
+      <Questions>
+        <Question Question="Yaralı mısın veya tıbbi yardıma ihtiyacın var mı?">
+          <Answers>
+            <Answer PedMood="Sad">İyiyim ben.</Answer>
+            <Answer PedMood="Sad">Yaram yok.</Answer>
+            <Answer PedMood="Sad">Sadece yorgunum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Biraz başım dönüyor, içki içmiştim.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">İyiyim, sadece biraz yavaşım.</Answer>
+            <Answer PedMood="Nervous">İyiyim memur bey.</Answer>
+            <Answer PedMood="Nervous">Tıbbi yardıma gerek yok.</Answer>
+            <Answer PedMood="Nervous">Yürüyebiliyorum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">İyiyim, sadece biraz çakırkeyfim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Hayır, sadece biraz dalgınım.</Answer>
+            <Answer PedMood="Mad">Yardıma ihtiyacım yok.</Answer>
+            <Answer PedMood="Mad">İyiyim.</Answer>
+            <Answer PedMood="Mad">Kimseyi çağırmayın.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">İyiyim ben, abartmayın.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">İyiyim, sormayı bırakın.</Answer>
+            <Answer PedMood="Neutral">İyiyim, teşekkürler.</Answer>
+            <Answer PedMood="Neutral">Yardıma gerek yok.</Answer>
+            <Answer PedMood="Neutral">Kendimi iyi hissediyorum.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Ambulansa gerek yok, biraz otursam geçer.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Dengem yerinde.</Answer>
+            <Answer PedMood="Sovereign">Tıbbi yardımı reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Yardıma ihtiyacım olursa kendim isterim.</Answer>
+            <Answer PedMood="Sovereign">Tedaviye rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Hala reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Şu an tedavi istemiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bilmem gereken bir sağlık sorunun var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Acil bir şey yok.</Answer>
+            <Answer PedMood="Sad">Biraz stresim var sadece.</Answer>
+            <Answer PedMood="Sad">Paylaşacak bir rahatsızlığım yok.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Biraz çakırkeyif olmam dışında bir şeyim yok.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Sadece sakinleşmeye çalışıyorum.</Answer>
+            <Answer PedMood="Nervous">Önemli bir şey yok.</Answer>
+            <Answer PedMood="Nervous">Bazen anksiyetem tutuyor.</Answer>
+            <Answer PedMood="Nervous">Belirteceğim bir rahatsızlık yok.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Tedavi gerektiren bir şey yok, sadece biraz içmiştim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Kendimi yeterince iyi hissediyorum.</Answer>
+            <Answer PedMood="Mad">Sizi ilgilendirmez.</Answer>
+            <Answer PedMood="Mad">Hayır.</Answer>
+            <Answer PedMood="Mad">İyiyim ben.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Hayır, içmiş olsam bile yok.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Hayır dedim ya.</Answer>
+            <Answer PedMood="Neutral">Ciddi bir rahatsızlığım yok.</Answer>
+            <Answer PedMood="Neutral">Müdahale gerektiren bir durum yok.</Answer>
+            <Answer PedMood="Neutral">Herhangi bir sağlık sorunum yok.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Daha önce içtiğim içki dışında bir şey yok.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Hayır, kendimi iyi hissediyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Bunu paylaşmaya rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Sağlık durumu hakkında beyan vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">İfade vermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Üzerinde reçeteli ilaç taşıyor musun?">
+          <Answers>
+            <Answer PedMood="Sad">Evet, kişisel kullanımım için.</Answer>
+            <Answer PedMood="Sad">Doktorun yazdığı şekilde yanımda.</Answer>
+            <Answer PedMood="Sad">İhtiyacım olan ilaçları taşıyorum.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Evet, içmiş olsam da yanımda.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Evet, çantamda duruyorlar.</Answer>
+            <Answer PedMood="Nervous">Evet, reçeteli olarak.</Answer>
+            <Answer PedMood="Nervous">Kutunun içinde birkaç tane var.</Answer>
+            <Answer PedMood="Nervous">Birkaç tane taşıyorum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Evet, lütfen dikkatli olun.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Evet, üzerinde etiketiyle birlikte.</Answer>
+            <Answer PedMood="Mad">Evet, tamamı yasal.</Answer>
+            <Answer PedMood="Mad">Reçeteli ilaç onlar, sakin olun.</Answer>
+            <Answer PedMood="Mad">Kötüye kullandığım falan yok.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Evet, içlerini karıştırmayın.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Evet, geri çekilin.</Answer>
+            <Answer PedMood="Neutral">Evet, hepsinin üzerinde etiketi var.</Answer>
+            <Answer PedMood="Neutral">Evet, ilaç şişesini gösterebilirim.</Answer>
+            <Answer PedMood="Neutral">Evet, doktor kontrolünde.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Evet, reçete etiketini gösterebilirim.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Evet, kapalı şekilde tutuyorum.</Answer>
+            <Answer PedMood="Sovereign">İlaçlarımın aranmasına rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Tamamı yasal ve etiketlidir.</Answer>
+            <Answer PedMood="Sovereign">İlaçlarım hakkında beyanda bulunmuyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Aramaya hala rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">İfade vermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Ambulans çağırmamı ister misin?">
+          <Answers>
+            <Answer PedMood="Sad">Ambulansa gerek yok.</Answer>
+            <Answer PedMood="Sad">İyiyim ben.</Answer>
+            <Answer PedMood="Sad">Onun yerine biraz oturup dinlenirim.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Hayır, sadece biraz içki içtim.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Hayır, sadece bir dakika dinlenmem lazım.</Answer>
+            <Answer PedMood="Nervous">Hayır, iyiyim.</Answer>
+            <Answer PedMood="Nervous">Gerek yok.</Answer>
+            <Answer PedMood="Nervous">Kendi başıma yürüyebilirim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Hayır, sadece biraz çakırkeyfim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Hayır, nefes alabiliyorum.</Answer>
+            <Answer PedMood="Mad">Hayır.</Answer>
+            <Answer PedMood="Mad">Sakın çağırmayın.</Answer>
+            <Answer PedMood="Mad">İyiyim dedim ya.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Hayır, öyle bir şey yapmayın.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Cevabım hala hayır.</Answer>
+            <Answer PedMood="Neutral">Hayır, teşekkürler.</Answer>
+            <Answer PedMood="Neutral">İyiyim.</Answer>
+            <Answer PedMood="Neutral">İhtiyacım yok.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Hayır, biraz su içerim geçer.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Hayır, dengem yerinde.</Answer>
+            <Answer PedMood="Sovereign">Tıbbi nakli reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Buna rıza göstermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Ambulans talep etmiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Hala reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Şu an ambulans istemiyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+    <QuestionGroup Name="Sokak - Kısıtlamalar ve Denetim">
+      <Questions>
+        <Question Question="Denetimli serbestlik veya şartlı tahliye durumun var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Bunu konuşmamayı tercih ederim.</Answer>
+            <Answer PedMood="Sad">Bu konuda beyanda bulunmak istemiyorum.</Answer>
+            <Answer PedMood="Sad">Zorunluysa işbirliği yaparım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Şu durumda bile bunu tartışmak istemiyorum.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Bu konuda ifadem yok.</Answer>
+            <Answer PedMood="Nervous">Bunun hakkında konuşmak istemiyorum.</Answer>
+            <Answer PedMood="Nervous">Nasıl cevap vereceğimi bilemiyorum.</Answer>
+            <Answer PedMood="Nervous">Sanmıyorum.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Çakırkeyifken bir şey söylemek istemiyorum.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Söylememeyi tercih ederim.</Answer>
+            <Answer PedMood="Mad">Sizi ilgilendirmez.</Answer>
+            <Answer PedMood="Mad">Hayır.</Answer>
+            <Answer PedMood="Mad">Siz söyleyin.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Hala sizi ilgilendirmez.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yorum yok.</Answer>
+            <Answer PedMood="Neutral">Bildiğim kadarıyla yok.</Answer>
+            <Answer PedMood="Neutral">Olduğunu sanmıyorum.</Answer>
+            <Answer PedMood="Neutral">Gerekirse yanıtlayabilirim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Cevabım aynı, yok.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Olduğunu sanmıyorum.</Answer>
+            <Answer PedMood="Sovereign">Hukuki statüm hakkında ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Bunu belirtmek zorunda mıyım?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bu bölgede bulunmana izin var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Sadece buradan geçiyordum.</Answer>
+            <Answer PedMood="Sad">Bir kısıtlama olduğunu bilmiyordum.</Answer>
+            <Answer PedMood="Sad">Gerekirse hemen uzaklaşırım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Hemen giderim, biraz kafam dağınık.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Yoluma devam ederim.</Answer>
+            <Answer PedMood="Nervous">İznim olduğunu sanıyorum.</Answer>
+            <Answer PedMood="Nervous">Herhangi bir uyarı tabelası görmedim.</Answer>
+            <Answer PedMood="Nervous">Yasaksa hemen ayrılabilirim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Gerekiyorsa hemen çıkarım.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Uzaklaşabilirim.</Answer>
+            <Answer PedMood="Mad">Burada bulunabilirim.</Answer>
+            <Answer PedMood="Mad">Burada durmaya hakkım var.</Answer>
+            <Answer PedMood="Mad">Yasak olduğunu nerede yazıyor gösterin.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Burada durmaya hala hakkım var.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Bir yere gitmiyorum.</Answer>
+            <Answer PedMood="Neutral">Bildiğim kadarıyla serbest.</Answer>
+            <Answer PedMood="Neutral">Herhangi bir kısıtlama görmedim.</Answer>
+            <Answer PedMood="Neutral">Gerekirse kenara çekilirim.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">İşbirliği yaparım memur bey.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Başka yere geçebilirim.</Answer>
+            <Answer PedMood="Sovereign">Burada durarak haklarımdan feragat etmiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Ayrılmam için yasal bir emir mi var?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">İfade vermiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Sokağa çıkma kısıtlaman var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Bir kısıtlama olduğunu bilmiyordum.</Answer>
+            <Answer PedMood="Sad">Eve gidiyorum zaten.</Answer>
+            <Answer PedMood="Sad">Bölgeden hemen ayrılırım.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Şimdi eve döneceğim.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Sakin bir şekilde uzaklaşacağım.</Answer>
+            <Answer PedMood="Nervous">Öyle bir kısıtlamadan haberim yok.</Answer>
+            <Answer PedMood="Nervous">Varsa hemen gidebilirim.</Answer>
+            <Answer PedMood="Nervous">Kurallara uyarım.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Eve gideceğim, biraz çakırkeyfim.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Hemen ayrılıyorum.</Answer>
+            <Answer PedMood="Mad">Sokağa çıkma yasağı beni kapsamıyor.</Answer>
+            <Answer PedMood="Mad">Burada olmamda bir sakınca yok.</Answer>
+            <Answer PedMood="Mad">Kimseyi rahatsız etmiyorum.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Sorun yok dedim, zorlamayın.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Burada kalıyorum.</Answer>
+            <Answer PedMood="Neutral">Kontrol etmedim ama gidebilirim.</Answer>
+            <Answer PedMood="Neutral">Öyle bir kural varsa uyarım.</Answer>
+            <Answer PedMood="Neutral">Ne yapmam gerektiğini söylemeniz yeterli.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Tamam, uyacağım.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Yola koyuluyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Dağılmam için yasal bir emir mi var?</Answer>
+            <Answer PedMood="Sovereign">Yasal bir emirse uyarım.</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">Yasal olarak emredilirse uyarım.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Aksi takdirde cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+        <Question Question="Bilmem gereken bir mahkeme kararı veya uzaklaştırma var mı?">
+          <Answers>
+            <Answer PedMood="Sad">Paylaşacak bir şey yok.</Answer>
+            <Answer PedMood="Sad">Sanmıyorum.</Answer>
+            <Answer PedMood="Sad">Bildiğim bir karar yok.</Answer>
+            <Answer PedMood="Sad" IsDrunk="true">Bildiğim kadarıyla yok.</Answer>
+            <Answer PedMood="Sad" IsHigh="true">Sanmıyorum.</Answer>
+            <Answer PedMood="Nervous">Bilmiyorum.</Answer>
+            <Answer PedMood="Nervous">Umarım yoktur.</Answer>
+            <Answer PedMood="Nervous">Emin değilim.</Answer>
+            <Answer PedMood="Nervous" IsDrunk="true">Bilmiyorum, kafam biraz dağınık.</Answer>
+            <Answer PedMood="Nervous" IsHigh="true">Şu an emin değilim.</Answer>
+            <Answer PedMood="Mad">Hayır.</Answer>
+            <Answer PedMood="Mad">Siz söyleyin.</Answer>
+            <Answer PedMood="Mad">Sizi ilgilendirmez.</Answer>
+            <Answer PedMood="Mad" IsDrunk="true">Hayır, hala hayır.</Answer>
+            <Answer PedMood="Mad" IsHigh="true">Yorum yok.</Answer>
+            <Answer PedMood="Neutral">Bildiğim kadarıyla yok.</Answer>
+            <Answer PedMood="Neutral">Olduğunu sanmıyorum.</Answer>
+            <Answer PedMood="Neutral">Sistemden kontrol edebilirsiniz.</Answer>
+            <Answer PedMood="Neutral" IsDrunk="true">Cevabım aynı, yok.</Answer>
+            <Answer PedMood="Neutral" IsHigh="true">Olduğunu sanmıyorum.</Answer>
+            <Answer PedMood="Sovereign">Mahkeme kararları hakkında ifade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign">Cevap vermeyi reddediyorum.</Answer>
+            <Answer PedMood="Sovereign">Bunu söylemek zorunda mıyım?</Answer>
+            <Answer PedMood="Sovereign" IsDrunk="true">İfade vermiyorum.</Answer>
+            <Answer PedMood="Sovereign" IsHigh="true">Cevap vermemeyi seçiyorum.</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </QuestionGroup>
+  </QuestionGroups>
+</CustomQuestions>

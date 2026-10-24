@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PatDownItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <RedItems>
+      <Item xsi:type="Firearm" Chance="Normal" FirearmState="Normal">a concealed handgun</Item>
+      <Item xsi:type="Firearm" Chance="Rare" FirearmState="Normal">a small-caliber handgun</Item>
+      <Item xsi:type="Firearm" Chance="Rare" FirearmState="ScratchedSN">a long gun with a filed serial number</Item>
+      <Item xsi:type="Firearm" Chance="VeryRare" FirearmState="ScratchedSN">an untraceable compact firearm</Item>
+      <Item xsi:type="Firearm" Chance="Rare" FirearmState="Normal">an unregistered handgun</Item>
+
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Fentanyl">a folded foil with fentanyl residue</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Heroin">a wrapped bundle of heroin</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Cocaine">a small baggie of cocaine</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="PCP">a vial containing PCP solution</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Oxycodone">a stash of illicit oxycodone pills</Item>
+      <Item xsi:type="Drug" Chance="Rare" DrugType="Hydrocodone">a bottle of mislabelled hydrocodone</Item>
+
+      <Item Chance="Rare">a loaded magazine</Item>
+      <Item Chance="Rare">a homemade suppressor</Item>
+      <Item Chance="Rare">a ballistic vest plate</Item>
+
+      <Item Chance="Rare">a forged government ID</Item>
+      <Item Chance="Rare">a cloned credit card</Item>
+      <Item Chance="VeryRare">an improvised explosive device component</Item>
+
+      <Item Chance="Rare">a sealed bundle of high-denomination bills with no ID</Item>
+   </RedItems>
+
+   <YellowItems>
+      <Item Chance="Often" xsi:type="Weapon">a folding pocket knife</Item>
+      <Item Chance="Normal" xsi:type="Weapon">a fixed-blade knife</Item>
+      <Item xsi:type="Weapon" Chance="Rare">a set of brass knuckles</Item>
+      <Item xsi:type="Weapon" Chance="Rare">a small baton</Item>
+
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Methamphetamine">a glass pipe with residue</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Morphine">a syringe capped in a paper tube</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Heroin">a spoon with burn marks</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="LSD">a small square of blotter paper</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Cannabis">a heat-sealed vape cartridge containing cannabis oil</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Adderall">a few loose amphetamine pills</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Ritalin">wrapped prescription pills without a bottle</Item>
+      <Item xsi:type="Drug" Chance="Normal" DrugType="Cocaine">multiple heat-sealed baggies</Item>
+
+      <Item Chance="Rare">a slim jim tool</Item>
+      <Item Chance="Rare">a set of lock picks in a small pouch</Item>
+      <Item Chance="Rare">bolt cutters with wear marks</Item>
+      <Item Chance="Rare">a ski mask folded in a back pocket</Item>
+
+      <Item Chance="Normal">two prepaid cellphones registered to different numbers</Item>
+      <Item Chance="Rare">a credit card skimming device</Item>
+      <Item Chance="Normal">a powerbank with modified wiring</Item>
+
+      <Item Chance="Normal">a thick roll of straps of cash</Item>
+
+      <Item Chance="Normal">a watch-sized tracker device</Item>
+      <Item Chance="Normal">a hand-drawn map with property markings</Item>
+      <Item Chance="Often">pepper spray</Item>
+   </YellowItems>
+
+   <GreenItems>
+      <Item Chance="Often">a wallet with a photo ID</Item>
+      <Item Chance="Often">a smartphone with a lockscreen notification</Item>
+      <Item Chance="Often">house keys on a branded keychain</Item>
+      <Item Chance="Often">a pack of cigarettes</Item>
+      <Item Chance="Often">a ballpoint pen</Item>
+      <Item Chance="Often">loose change in a coin pocket</Item>
+      <Item Chance="Normal">a transit pass or bus card</Item>
+      <Item Chance="Normal">a slim notebook with scribbled notes</Item>
+      <Item Chance="Normal">a pair of sunglasses in a soft case</Item>
+      <Item Chance="Normal">a paperback book</Item>
+      <Item Chance="Normal">a single boarding or event ticket</Item>
+      <Item Chance="Normal">an insulin pen (medical)</Item>
+      <Item Chance="Normal">a small bottle of hand sanitizer</Item>
+      <Item Chance="Rare">an official-looking work ID badge in a lanyard</Item>
+      <Item Chance="Normal">a folded receipt from a nearby store</Item>
+      <Item Chance="Normal">a small pack of gum or mints</Item>
+      <Item Chance="Normal">a low-capacity powerbank</Item>
+      <Item Chance="Normal">a pair of earbuds in a case</Item>
+      <Item Chance="Normal">a disposable face mask</Item>
+      <Item Chance="Normal">a small first-aid bandage pack</Item>
+   </GreenItems>
+</PatDownItems>
